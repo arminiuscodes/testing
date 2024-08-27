@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="landing_page">
+        <div class="container">
+            <div class="nav_bar">
+                <div class="logo">
+                    <img src="assets/logo 1.svg" alt="">
+                </div>
+                
+                <div class="nav_content">
+                    <div class="links">
+                        <a href="./">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#service">Services</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="mail_btn">
+                    <button>vcs@gmail.com</button>
+                </div>
+                <div class="hamburger-menu" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                
+            </div>
+            <div class="slider">
+
+                <!-- first pannel -->
+                <div class="slide" id="pannel01">
+                    <div class="arrow1">
+                        <img src="assets/Arrow 3.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h1>Empowering Your Business <br>with HR, IT Marketing & <br>Finance Mastery</h1>
+                        <p>At VCS, we transform your operations with top-tier expertise in <br>HR, IT, digital
+                            marketing, and finance</p>
+                        <button>Get Started <img src="assets/Icon.png" alt=""></button>
+                    </div>
+                    <div class="image">
+                        <img src="assets/envtrialmarketingA-01 1.png" alt="">
+                    </div>
+                    <div class="arrow2">
+                        <img src="assets/Arrow 2.png" alt="">
+                    </div>
+                    <div class="dotted_arrow">
+                        <img src="assets/hero-shp.png.png" alt="">
+                    </div>
+                    <div class="footer">
+
+                        <p><img src="assets/it (2).png" alt="" width="53px" height="53px">IT Services</p>
+                        <p><img src="assets/digital mrketing.png" alt="" width="36px" height="38px"><span>Digital
+                                Marketing</span></p>
+                        <p><img src="assets/fiance.png" alt="">Financial Services</p>
+                        <p><img src="assets/hr services.png" alt="">HR Services</p>
+
+                    </div>
+
+
+
+                </div>
+                <!-- second pannel -->
+                <div class="slide" id="pannel02">
+                    <div class="arrow1">
+                        <img src="assets/Arrow 3.png" alt="">
+                    </div>
+                    <div class="image01">
+                        <img src="assets/pannel02.png" alt="">
+                    </div>
+                    <div class="info1">
+                        <h1>Know What Your Money <br>Can Do For You</h1>
+                        <p>At VCS, we can help you manage your money <br>in the best way possible.</p>
+                        <button>Get Started <img src="assets/Icon.png" alt=""></button>
+                    </div>
+                    <div class="arrow2">
+                        <img src="assets/Arrow 2.png" alt="">
+                    </div>
+                    <div class="dotted_arrow">
+                        <img src="assets/hero-shp.png.png" alt="">
+                    </div>
+                    <div class="footer" id="footer01">
+                        <p><img src="assets/it (2).png" alt="" width="53px" height="53px">IT Services</p>
+                        <p><img src="assets/digital mrketing.png" alt="" width="36px" height="38px"><span>Digital
+                                Marketing</span></p>
+                        <p><img src="assets/fiance.png" alt="">Financial Services</p>
+                        <p><img src="assets/hr services.png" alt="">HR Services</p>
+                    </div>
+                </div>
+
+                <!-- Third pannel -->
+                <div class="slide" id="pannel03">
+                    <div class="arrow1">
+                        <img src="assets/Arrow 3.png" alt="">
+                    </div>
+                    <div class="image02">
+                        <img src="assets/pannel03.png" alt="">
+                    </div>
+                    <div class="info2">
+                        <h1>Innovative HR,<br>Digital Marketing & IT <br>Solutionsfor Your Business</h1>
+                        <p>From dynamic HR strategies to cutting-edge digital <br>marketing and robust IT support, VCS
+                            has you <br>covered.</p>
+                        <button>Get Started <img src="assets/Icon.png" alt=""></button>
+                    </div>
+                    <div class="arrow2">
+                        <img src="assets/Arrow 2.png" alt="">
+                    </div>
+                    <div class="dotted_arrow">
+                        <img src="assets/hero-shp.png.png" alt="">
+                    </div>
+                    <div class="footer" id="footer03">
+                        <p><img src="assets/it (2).png" alt="" width="53px" height="53px">IT Services</p>
+                        <p><img src="assets/digital mrketing.png" alt="" width="36px" height="38px"><span>Digital
+                                Marketing</span></p>
+                        <p><img src="assets/fiance.png" alt="">Financial Services</p>
+                        <p><img src="assets/hr services.png" alt="">HR Services</p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <!-- ---- About us page ------ -->
+            <div class="aboutus" id="about">
+                <div class="abt_img">
+                    <img src="assets/Aboutus.png" alt="">
+                </div>
+                <div class="abt_info">
+                    <h1>About us</h1>
+                    <h2>Welcome to VCS Consulting <br>Services</h2>
+                    <h3>At VCS Consulting Services, we are dedicated to <br>empowering businesses with our extensive
+                        expertise and <br> commitment to excellence.</h3>
+                    <h4>Our team comprises seasoned professionals with a wealth of <br> experience across various
+                        domains, ensuring that we deliver top- <br>notch solutions tailored to each client' s unique
+                        needs .<br>
+                        Our vision is to be a trusted partner in our clients' growth journeys,<br>driving innovation and
+                        success through our comprehensive service <br>offerings.
+                    </h4>
+                    <button>Read More <img src="assets/Icon.png" alt=""></button>
+                </div>
+            </div>
+
+            <!-- ----- services page --------- -->
+            <div class="servicing" id="service">
+            <div class="services" id="slide1">
+                <img src="assets/border2.png.png" alt="" class="border">
+                <h1>We Help You To Grow <br>Your Market</h1>
+                <div class="service">
+                    <div class="arrow1_1">
+                        <img src="assets/Arrow 3.png" alt="">
+                    </div>
+                    <div class="card1" id="active">
+                        <div class="img">
+                            <img src="assets/digital mrketing.png" alt="">
+                        </div>
+                        <div class="naming">
+                            <h2>Digital Marketing</h2>
+                        </div>
+                        <div class="information">
+                            <h3>At VCS, we partner with our clients to create <br>digital marketing strategies that can
+                                signficantly <br> enhance your brand</h3>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="img">
+                            <img src="assets/hr services.png" alt="">
+                        </div>
+                        <div class="naming">
+                            <h2>HR Services</h2>
+                        </div>
+                        <div class="information">
+                            <h3>We at VCS facilitate business with end-to-end <br>HR Services, including Manpower
+                                planning,<br> Business Strategies, Police us.</h3>
+                        </div>
+                    </div>
+                    <div class="card3">
+                        <div class="img">
+                            <img src="assets/it (2).png" alt="">
+                        </div>
+                        <div class="naming">
+                            <h2>IT Services</h2>
+                        </div>
+                        <div class="information">
+                            <h3>Our experts in IT Managed Services enable <br> organizations to focus on their core
+                                business <br> functions while we ensure </h3>
+                        </div>
+                    </div>
+
+                    <div class="arrow2_2">
+                        <img src="assets/Arrow 2.png" alt="">
+                    </div>
+
+                </div>
+                <div class="digital_marketing_info">
+                    <div class="info_img">
+                        <img src="assets/digital marketing (info).png" alt="">
+                    </div>
+                    <div class="info_contents">
+                        <div class="informations">
+                            <h1>Specialize in Digital <br>Marketing</h1>
+                        </div>
+                        <div class="details">
+                            <p>At VCS, we partner with our clients to create digital marketing strategies that can
+                                <br>significantly enhance your brand's visibility and recognition</p>
+                            <hr class="horizontal_line">
+                        </div>
+                        
+                        <div class="details2">
+                            <li><img src="assets/double-tick.png" alt="">Search Engine Optimization (SEO)</li>
+                            <li><img src="assets/double-tick.png" alt="">Social Media Management</li>
+                            <li><img src="assets/double-tick.png" alt="">Content Writing</li>
+                            <li><img src="assets/double-tick.png" alt="">Pay- Per - Click</li>
+                            <li><img src="assets/double-tick.png" alt="">Email Marketing</li>
+                        
+                            <hr class="horizontal_line2">
+                            <img src="assets/shape-2.png.png" alt="" class="star">
+                        
+                        </div>
+                        
+                    </div>
+                    
+
+
+                </div>
+                <div class="ending">
+                    <li>16M +<br><span>Total Advertising Partners</span></li>
+                    <li>16% <br><span>Sales Increasements</span></li>
+                    <li>5K+ <br><span>Social Campaigns</span></li>
+                    <li>16K+<br><span>Paid Marketing Tools</span></li>
+                </div>
+
+
+
+            </div>
+                    <!-- ----- services page --------- -->
+                    <div class="services" id="slide2">
+                        <img src="assets/border2.png.png" alt="" class="border">
+                        <h1>Empowering Your Workforce, Elevating <br> Your Success.</h1>
+                        <div class="service">
+                            <div class="arrow1_1">
+                                <img src="assets/Arrow 3.png" alt="">
+                            </div>
+                            <div class="card1">
+                                <div class="img">
+                                    <img src="assets/digital mrketing.png" alt="">
+                                </div>
+                                <div class="naming">
+                                    <h2>Digital Marketing</h2>
+                                </div>
+                                <div class="information">
+                                    <h3>At VCS, we partner with our clients to create <br>digital marketing strategies that can
+                                        signficantly <br> enhance your brand</h3>
+                                </div>
+                            </div>
+                            <div class="card2" id="active">
+                                <div class="img">
+                                    <img src="assets/hr services.png" alt="">
+                                </div>
+                                <div class="naming">
+                                    <h2>HR Services</h2>
+                                </div>
+                                <div class="information">
+                                    <h3>We at VCS facilitate business with end-to-end <br>HR Services, including Manpower
+                                        planning,<br> Business Strategies, Police us.</h3>
+                                </div>
+                            </div>
+                            <div class="card3">
+                                <div class="img">
+                                    <img src="assets/it (2).png" alt="">
+                                </div>
+                                <div class="naming">
+                                    <h2>IT Services</h2>
+                                </div>
+                                <div class="information">
+                                    <h3>Our experts in IT Managed Services enable <br> organizations to focus on their core
+                                        business <br> functions while we ensure </h3>
+                                </div>
+                            </div>
+        
+                            <div class="arrow2_2">
+                                <img src="assets/Arrow 2.png" alt="">
+                            </div>
+        
+                        </div>
+                        <div class="digital_marketing_info">
+                            <div class="info_img">
+                                <img src="assets/digital marketing (info).png" alt="">
+                            </div>
+                            <div class="info_contents">
+                                <div class="informations">
+                                    <h1>Specialize in HR Services</h1>
+                                </div>
+                                <div class="details">
+                                    <p>We at VCS facilitate business with end-to-end HR Services, including Manpower <br> planning, Business Strategies, Policies and compliances, and much more</p>
+                                    <hr class="horizontal_line">
+                                </div>
+                                
+                                <div class="details2">
+                                    <li><img src="assets/double-tick.png" alt="">Customized Hiring Solutions</li>
+                                    <li><img src="assets/double-tick.png" alt="">Employee Compensation & Incentives</li>
+                                    <li><img src="assets/double-tick.png" alt="">HR Policy Development</li>
+                                    <li><img src="assets/double-tick.png" alt="">Payroll & Legal Advisory</li>
+                                    <li><img src="assets/double-tick.png" alt="">Employee Engagement & Retention</li>
+                                
+                                    <hr class="horizontal_line2">
+                                    <img src="assets/shape-2.png.png" alt="" class="star">
+                                
+                                </div>
+                                
+                            </div>
+                            
+        
+        
+                        </div>
+                        <div class="ending">
+                            <li>16M +<br><span>Total Advertising Partners</span></li>
+                            <li>16% <br><span>Sales Increasements</span></li>
+                            <li>5K+ <br><span>Social Campaigns</span></li>
+                            <li>16K+<br><span>Paid Marketing Tools</span></li>
+                        </div>
+        
+        
+        
+                    </div>
+                                    <!-- ----- services page --------- -->
+                                    <div class="services" id="slide3">
+                                        <img src="assets/border2.png.png" alt="" class="border">
+                                        <h1>"Transforming Technology <br> Into Growth.</h1>
+                                        <div class="service">
+                                            <div class="arrow1_1">
+                                                <img src="assets/Arrow 3.png" alt="">
+                                            </div>
+                                            <div class="card1">
+                                                <div class="img">
+                                                    <img src="assets/digital mrketing.png" alt="">
+                                                </div>
+                                                <div class="naming">
+                                                    <h2>Digital Marketing</h2>
+                                                </div>
+                                                <div class="information">
+                                                    <h3>At VCS, we partner with our clients to create <br>digital marketing strategies that can
+                                                        signficantly <br> enhance your brand</h3>
+                                                </div>
+                                            </div>
+                                            <div class="card2">
+                                                <div class="img">
+                                                    <img src="assets/hr services.png" alt="">
+                                                </div>
+                                                <div class="naming">
+                                                    <h2>HR Services</h2>
+                                                </div>
+                                                <div class="information">
+                                                    <h3>We at VCS facilitate business with end-to-end <br>HR Services, including Manpower
+                                                        planning,<br> Business Strategies, Police us.</h3>
+                                                </div>
+                                            </div>
+                                            <div class="card3" id="active">
+                                                <div class="img">
+                                                    <img src="assets/it (2).png" alt="">
+                                                </div>
+                                                <div class="naming">
+                                                    <h2>IT Services</h2>
+                                                </div>
+                                                <div class="information">
+                                                    <h3>Our experts in IT Managed Services enable <br> organizations to focus on their core
+                                                        business <br> functions while we ensure </h3>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="arrow2_2">
+                                                <img src="assets/Arrow 2.png" alt="">
+                                            </div>
+                        
+                                        </div>
+                                        <div class="digital_marketing_info">
+                                            <div class="info_img">
+                                                <img src="assets/digital marketing (info).png" alt="">
+                                            </div>
+                                            <div class="info_contents">
+                                                <div class="informations">
+                                                    <h1>Specialize IT Services</h1>
+                                                </div>
+                                                <div class="details">
+                                                    <p>Our experts in IT Managed Services enable organizations to focus on their core <br> business functions while we ensure their technology</p>
+                                                    <hr class="horizontal_line">
+                                                </div>
+                                                
+                                                <div class="details2">
+                                                    <li><img src="assets/double-tick.png" alt="">IT Infrastructure Management</li>
+                                                    <li><img src="assets/double-tick.png" alt="">Network & Security Management</li>
+                                                    <li><img src="assets/double-tick.png" alt="">Data Center Management</li>
+                                                    <li><img src="assets/double-tick.png" alt="">Application Support</li>
+                                                    <li><img src="assets/double-tick.png" alt="">Cloud Services & Vendor Management</li>
+                                                
+                                                    <hr class="horizontal_line2">
+                                                    <img src="assets/shape-2.png.png" alt="" class="star">
+                                                
+                                                </div>
+                                                
+                                            </div>
+                                            
+                        
+                        
+                                        </div>
+                                        <div class="ending">
+                                            <li>16M +<br><span>Total Advertising Partners</span></li>
+                                            <li>16% <br><span>Sales Increasements</span></li>
+                                            <li>5K+ <br><span>Social Campaigns</span></li>
+                                            <li>16K+<br><span>Paid Marketing Tools</span></li>
+                                        </div>
+                        
+                        
+                        
+                                    </div>
+                                                        <!-- ----- services page --------- -->
+                    <div class="services" id="slide4">
+                        <img src="assets/border2.png.png" alt="" class="border">
+                        <h1>Empowering Your Workforce, Elevating <br> Your Success.</h1>
+                        <div class="service">
+                            <div class="arrow1_1">
+                                <img src="assets/Arrow 3.png" alt="">
+                            </div>
+                            <div class="card1" id="active">
+                                <div class="img">
+                                    <img src="assets/fiance.png" alt="">
+                                </div>
+                                <div class="naming">
+                                    <h2>Financial Services</h2>
+                                </div>
+                                <div class="information">
+                                    <h3>With our expertise and personalized approach,<br> we provide comprehensive financial planning,<br> compliance and advisory services for your <br> company.</h3>
+                                </div>
+                            </div>
+                            <div class="card2">
+                                <div class="img">
+                                    <img src="assets/hr services.png" alt="">
+                                </div>
+                                <div class="naming">
+                                    <h2>HR Services</h2>
+                                </div>
+                                <div class="information">
+                                    <h3>We at VCS facilitate business with end-to-end <br>HR Services, including Manpower
+                                        planning,<br> Business Strategies, Police us.</h3>
+                                </div>
+                            </div>
+                           
+                                <div class="card3">
+                                <div class="img">
+                                    <img src="assets/it (2).png" alt="">
+                                </div>
+                                <div class="naming">
+                                    <h2>IT Services</h2>
+                                </div>
+                                <div class="information">
+                                    <h3>Our experts in IT Managed Services enable <br> organizations to focus on their core
+                                        business <br> functions while we ensure </h3>
+                                </div>
+                            </div>
+        
+                            <div class="arrow2_2">
+                                <img src="assets/Arrow 2.png" alt="">
+                            </div>
+        
+                        </div>
+                        <div class="digital_marketing_info">
+                            <div class="info_img">
+                                <img src="assets/digital marketing (info).png" alt="">
+                            </div>
+                            <div class="info_contents">
+                                <div class="informations">
+                                    <h1>Specialize in Financial Services</h1>
+                                </div>
+                                <div class="details">
+                                    <p>With our expertise and personalized approach, we provide comprehensive financial <br> planning, compliance and advisory services for your company.</p>
+                                    <hr class="horizontal_line">
+                                </div>
+                                
+                                <div class="details2">
+                                    <li><img src="assets/double-tick.png" alt="">Tax Advisory</li>
+                                    <li><img src="assets/double-tick.png" alt="">Budgeting & GST </li>
+                                    <li><img src="assets/double-tick.png" alt="">Accounting & Book keeping</li>
+                                    <li><img src="assets/double-tick.png" alt="">Wealth Management</li>
+                                    <li><img src="assets/double-tick.png" alt="">Insurance (Life, Health, Property, Vehicle)</li>
+                                
+                                    <hr class="horizontal_line2">
+                                    <img src="assets/shape-2.png.png" alt="" class="star">
+                                
+                                </div>
+                                
+                            </div>
+                            
+        
+        
+                        </div>
+                        <div class="ending">
+                            <li>16M +<br><span>Total Advertising Partners</span></li>
+                            <li>16% <br><span>Sales Increasements</span></li>
+                            <li>5K+ <br><span>Social Campaigns</span></li>
+                            <li>16K+<br><span>Paid Marketing Tools</span></li>
+                        </div>
+        
+        
+        
+                    </div>
+                </div>
+            <div class="blog_section" id="blog">
+                <div class="picture">
+                    <img src="assets/shape3.png.svg" alt="">
+                </div>
+                <div class="blog_info">
+                    <div class="blog_content">
+                        <img src="assets/shap-2.png.svg" alt="" class="star_img">
+                        <div class="blog_heading">
+                            <h1>Our Expertise</h1>
+                            <p>At PA, we combine deep industry knowledge with a commitment to <br>excellence across three core areas: HR Services, IT Services, and Digital <br> Marketing. Our multidisciplinary approach ensures that we deliver <br>comprehensive solutions that drive success for your business.</p>
+                        </div>
+                       
+                        
+                    </div>
+                    <div class="dm_content">
+                        <h2>Digital Marketing</h2>
+                        <p>Complete Digital Marketing Solutions, Telemarketing, Database <br> Profiling, Audience Generation for events.</p>
+                        <a href="">Read More <img src="assets/Vector.svg" alt=""></a>
+                    </div>
+                    <div class="finance">
+                        <h2>Finance</h2>
+                        <p>Financial Planning, Advisory Services, Wealth Management.</p>
+                        <a href="">Read More <img src="assets/Vector.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="blog_info2">
+                    <div class="hr_content">
+                        <h2>HR Services</h2>
+                        <p>Recruitment, Payroll Processing, HR Policy Development, Compliance Management.</p>
+                        <a href="">Read More <img src="assets/Vector.svg" alt=""></a>
+                    </div>
+                    <div class="it_content">
+                        <h2>IT Services</h2>
+                        <p>Managed Services, IT Infrastructure, Cybersecurity</p>
+                        <a href="">Read More <img src="assets/Vector.svg" alt=""></a>
+
+                    </div>
+                    <img src="assets/shap-2.png.svg" alt="" class="star_img2">
+                </div>
+                
+            </div>
+            <div class="feedback_section">
+                <div class="feeedback_header">
+                    <div class="img01">
+                        <img src="assets/shape-2.png.png" alt="">
+                    </div>
+                    <div class="fdback_img">
+                        <img src="assets/border2.png.png" alt="">
+                    </div>
+                    <div class="fdback_txt">
+                        <h1>What Say Our Customers <br>
+                            About VCS Consulting</h1>
+                    </div>
+                    <img src="assets/shape4.png (1).svg" alt="" class="str">
+
+                    
+
+                </div>
+                <div class="cards">
+                    <div class="cards01">
+                        <div class="naming">
+                            <img src="assets/testi.png.svg" alt="">
+                            <p>Sonia Sara <br> <span>Marketer</span></p>
+                            
+                        </div>
+                        <div class="information">
+                            <p>“Distinctively formulate optimal outside for <br>
+                                interdependent schemas to evolve end <br>
+                                action items and fully researched vortals <br>
+                                niche markets rather than proof processes”</p>
+                        </div>
+                        <div class="hrs">
+                            <hr>
+                        </div>
+                        <div class="rating">
+                            <img src="assets/Link.svg" alt="">
+                            <img src="assets/List.svg" alt="" >
+                        </div>
+                    </div>
+                    <div class="cards02">
+                        <div class="naming">
+                            <img src="assets/testi2.png.svg" alt="">
+                            <p>John Alexon <br> <span>Marketer</span></p>
+                            
+                        </div>
+                        <div class="information">
+                            <p>“Distinctively formulate optimal outside for <br>
+                                interdependent schemas to evolve end <br>
+                                action items and fully researched vortals <br>
+                                niche markets rather than proof processes”</p>
+                        </div>
+                        <div class="hrs">
+                            <hr>
+                        </div>
+                        <div class="rating">
+                            <img src="assets/Link.svg" alt="">
+                            <img src="assets/List.svg" alt="" >
+                        </div>
+                    </div>
+                    <div class="cards03">
+                        <div class="naming">
+                            <img src="assets/testi3.png.svg" alt="">
+                            <p>D. Morgan <br> <span>Marketer</span></p>
+                            
+                        </div>
+                        <div class="information">
+                            <p>“Distinctively formulate optimal outside for <br>
+                                interdependent schemas to evolve end <br>
+                                action items and fully researched vortals <br>
+                                niche markets rather than proof processes”</p>
+                        </div>
+                        <div class="hrs">
+                            <hr>
+                        </div>
+                        <div class="rating">
+                            <img src="assets/Link.svg" alt="">
+                            <img src="assets/List.svg" alt="" >
+                        </div>
+                    </div>
+                </div>
+                <div class="our_team">
+                    <div class="ourteam">
+                        <h3>Our Team</h3>
+                        <p>our customers are at the heart of everything we do. We’re proud to share some of <br>
+                             the experiences and successes our clients have had with our services:</p>
+                    </div>
+                    <div class="minicards">
+                        <div class="min_card">
+                            <img src="assets/Ellipse 3.svg" alt="">
+                            <p>HR <br> 
+                            Experts</p>
+                        </div>
+                        <div class="min_card">
+                            <img src="assets/Ellipse 4.svg" alt="">
+                            <p>Digital <br>Marketing</p>
+                        </div>
+                        <div class="min_card">
+                            <img src="assets/Ellipse 4 (1).svg" alt="">
+                            <p>IT <br>Specialists</p>
+                        </div>
+                        <div class="min_card">
+                            <img src="assets/Ellipse 5.svg" alt="">
+                            <p>Finance <br>Experts</p>
+                        </div>
+                        <div class="min_card">
+                            <img src="assets/Ellipse 6.svg" alt="">
+                            <p>Complaince <br>Experts</p>
+                        </div>
+                        <div class="min_card">
+                            <img src="assets/Ellipse 6 (1).svg" alt="">
+                            <p>Legal, Wealth & <br>
+                                Insurance Advisors</p>
+                        </div>
+                    </div>
+                </div>
+
+             <div class="multi_image">
+                <div class="design">
+                    <img src="assets/shape-2.png.png" alt="">
+                </div>
+                <div class="imgs">
+                    <img src="assets/img1 (1).svg" alt="">
+                    <img src="assets/img1 (6).svg" alt="">
+                    <img src="assets/img1 (5).svg" alt="">
+                    <img src="assets/img1 (4).svg" alt="">
+                    <img src="assets/img1 (3).svg" alt="">
+                    <img src="assets/img1 (2).svg" alt="">
+                </div>
+             </div>
+             <div class="whatsapp_contact">
+                <div class="design1">
+                    <img src="assets/line.png.svg" alt="">
+                </div>
+                <div class="content01">
+                    <h3>Are You Ready to for Your <br>
+                        Business Success?</h3>
+                    <p>At VCS, we transform your operations with top-tier expertise in HR, IT, digital <br>
+                         marketing, and finance</p>
+                    <a>Contact us <img src="assets/Icon.svg" alt=""></a>
+                </div>
+                <div class="star_img">
+                    <img src="assets/shap1.png.svg" alt="">
+                </div>
+                <div class="contact_deatils">
+                    <img src="assets/call.png.svg" alt="">
+                    <p>+918810518347</p>
+                    
+                    <h3>(What's App/Call)</h3>
+                    <div class="design02">
+                        <img src="assets/shap2.png.png" alt="">
+                    </div>
+                    
+                </div>
+             </div>
+             <div class="contact" id="contact">
+                <div class="contact_details">
+
+                    <div class="c1">
+                        <img src="assets/logo 1.svg" alt="">
+                        <p>At VCS, we transform your operations <br> with top-tier expertise in HR, IT, digital <br>marketing, and finance</p>
+                        <div class="icons">
+                            <img src="assets/Item → Link.svg" alt="">
+                            <img src="assets/Item → Link (1).svg" alt="">
+                            <img src="assets/SVG.svg" alt="">
+                            <img src="assets/Item → Link (2).svg" alt="">
+                        </div>
+                    </div>
+                    <div class="informations">
+                        <h3>Informations</h3>
+                        <p>About Company</p>
+                        <p>Letest Work</p>
+                        <p>Team Member</p>
+                        <p>Latest Blog</p>
+                        <p>Contact Us</p>
+                        
+                    </div>
+                    <div class="contact_us">
+                        <h3>Contact Us</h3>
+                        <a href="https://www.google.com/maps/place/138,+Sheetla+enclave/@28.484725,77.0230131,17z/data=!3m1!4b1!4m6!3m5!1s0x390d19590557686b:0xa180790f10faee39!8m2!3d28.484725!4d77.0230131!16s%2Fg%2F11kqdqp06n?authuser=0&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D">B-8 Street No 6, Sheetal Enclave, <br>Gurgaon-122022</a>
+                        <a href="">Info@vcsconsulting.in</a>
+                        <a href="">+918810518347</a>
+                        <a href="">vcsconsulting.in</a>
+                        
+                    </div>
+                    <div class="newsletter">
+                        <h3>Newsletter</h3>
+                        <input type="email" placeholder="Enter your email"><img src="assets/Icon.svg" alt="">
+                        <p>Sign up for our email updates to receive <br> VCS newsletter, stories and information on <br> opportunities to make a difference.</p>
+                    </div>
+                </div>
+                <div class="lines">
+                    <hr>
+                </div>
+                <div class="contact_footer">
+                    
+                    <div class="rights">
+                        <p>2024 | Alrights reserved by VCS Financial Consulting</p>
+                    </div>
+                    <div class="navigators">
+                        <a href="">About</a>
+                        <a href="">Career</a>
+                        <a href="">Contact</a>
+                        <a href="">Faqs</a>
+                    </div>
+                </div>
+             </div>
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
