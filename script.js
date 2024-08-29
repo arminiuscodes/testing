@@ -133,3 +133,11 @@ function toggleMenu() {
     navContent.classList.toggle('active');
 }
 
+gsap.from(".info h1,.info p,.info button",{
+    y:30,
+    opacity:0,
+    delay:0.2,
+    duration:1.5,
+    // stagger:0.2
+    
+});

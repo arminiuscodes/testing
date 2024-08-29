@@ -3,6 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --font-family: 'Manrope', sans-serif;
+  
+    --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    
+    --color-bg: #040C18;
+    --color-footer : #031B34;
+    --color-blog: #042c54;
+    --color-text: #81AFDD;
+    --color-subtext: #FF8A71;
+  }
+  .gradient__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -11,11 +29,12 @@ html{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 6.56vw;
     top: 0.03vw;
     box-shadow: 0 0.10vw 0.26vw -0.10vw rgba(0, 0, 0, 0.9);
-    background-color: rgba(128, 128, 128, 0.637);
+    /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+    background-image:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
     
     
     
@@ -32,6 +51,15 @@ html{
     justify-content: center;
     align-items: center;
     margin-left: 18vw;
+    width: 40vw;
+    height: 6vh;
+    /* background-color: black; */
+    border-radius: 1.4vw;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
 }
 .nav_content .links{
     display: flex;
@@ -41,15 +69,16 @@ html{
 .nav_content .links a{
     font-family: "Kumbh Sans", sans-serif;
     padding: 1.6vw;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 0.94vw;
     line-height: 1.35vw;
     cursor: pointer;
     text-decoration: none; /* Removes the underline */
-    color: #000; /* Adjust as needed */
+    color:white; /* Adjust as needed */
 }
 .nav_content .links a:hover{
-    color: #c17149; 
+    color:#E98958;
+    transition: ease-in-out,0.2s;
 }
 
 .mail_btn button{
@@ -70,9 +99,12 @@ html{
 .slider{
   width:100%;
   height: 80vh;
-  background:url("assets/background_img.jpeg");
+  /* background: #040C18; */
+  background-image:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  backdrop-filter: blur(20px);
+  /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
   object-fit: cover;
-  margin-top:0.8vh;
+  /* margin-top:0.8vh; */
 }
  #pannel01,#pannel02,#pannel03{
     display: none;
@@ -89,20 +121,27 @@ html{
     display:block;
 }
 .image img{
-   width: 66.20vw;
+   width: 48vw;
    height: 44.11vw;
+   margin-left: 12vw;
+   
 }
 .arrow1,.arrow1_1{
     
     width: 3.59vw;
     height: 3.59vw;
     border-radius: 50%;
-    background: #E08455;
+    /* background: #E08455; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 8vw;
     cursor: pointer;
+    backdrop-filter: blur(10px);
+    background:var(--gradient-bar);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);;
 }
 
 .arrow1 img,.arrow1_1 img{
@@ -114,12 +153,17 @@ html{
     width: 3.59vw;
     height: 3.59vw;
     border-radius: 50%;
-    background: #E08455;
+    /* background: #E08455; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 8vw;
     cursor: pointer;
+    backdrop-filter: blur(10px);
+    background: var(--gradient-bar);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
 }
 .arrow2 img,.arrow2_2 img{
     width: 0.89vw;
@@ -135,7 +179,7 @@ html{
     margin-top: -10vh;
 }
 .info h1{
-    font-size: 2.19vw;
+    font-size: 2.3vw;
     font-weight: 700;
     line-height: 3.80vw;
     font-family: "Inter",sans-serif;
@@ -143,10 +187,16 @@ html{
     line-height: 1.2;
     text-align: center;
     margin-top: 22vh;
+    z-index: 999;
+    
+    
+    
+    
+
 }
 
 .info1 h1,.info2 h1{
-    font-size: 2.19vw;
+    font-size: 2.3vw;
     font-weight: 700;
     line-height: 3.80vw;
     font-family: "Inter",sans-serif;
@@ -163,15 +213,17 @@ html{
     text-align: center;
     margin-top: 8vh;
     font-family: "Kumbh Sans", sans-serif;
-    color: #626262;
+    /* color: #626262; */
+    color: white;
     
     
 }
 .info button,.info1 button,.info2 button{
     width: 10.09vw;
     height: 2.96vw;
+    
     border-radius: 0.26vw;
-    background: #101210;
+    background:black;
     font-family: "Kumbh Sans",sans-serif;
     color: white;
     text-align: center;
@@ -183,7 +235,14 @@ html{
     cursor: pointer;
 }
 .image01 img{
-    margin-top: 20vh;
+    width: 30vw;
+    height: 30vw;
+    margin-left: 12vw;
+}
+.image02 img{
+    width: 30vw;
+    height: 30vw;
+    margin-left: 12vw;
 }
 .info button img,.info1 buttton img{
     width: 1.35vw;
@@ -229,15 +288,19 @@ html{
    height: 100vh;
    margin-top: 9.5vh;
    display: flex;
-   justify-content: space-evenly;
+   justify-content:flex-start;
    align-items: center;
+   
 
 }
 .abt_info{
-    width: 41.67vw;
-    height: 5.78vw;
-    margin-bottom: 36.46vw;
-    transform: translateX(-8vw);  
+    /* width: 41.67vw;
+    height: 5.78vw; */
+    margin-bottom: 8h;
+    margin-right: auto;
+    
+    /* transform: translateX(-8vw);   */
+
 }
 
 .abt_info h1{
@@ -289,9 +352,11 @@ html{
 /* -----services page ------- */
 .servicing{
     width: 100%;
-    height: 78.85vw;
-    background-image: url("assets/background_services.jpeg");
-    object-fit: cover;
+    height: 85vw;
+    background: url("assets/background_services.jpeg");
+    /* background: black; */
+    background-size: cover;
+    background-position: center;
 }
 .services{
     width: 100%;
@@ -504,14 +569,14 @@ html{
 .blog_section{
     width: 100%;
     height: 46.77vw;
-    background-image: url("assets/blogpicture.jpeg");
+    background: url("assets/blogpicture.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     
 }
 .blog_info,.blog_info2{
@@ -629,7 +694,7 @@ html{
 .feedback_section{
     width: 100%;
     height: 72.08vw;
-    background-image: url("assets/feedback.png");
+    background: url("assets/feedback.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -793,7 +858,7 @@ html{
 .whatsapp_contact{
     width: 100vw;
     height: 22.89vw;
-    background-image:url("assets/whatsapp\ contact.png");
+    background:url("assets/whatsapp\ contact.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -877,7 +942,7 @@ html{
 .contact{
     width: 100vw;
     height: 62vh;
-    background-image: url("assets/feedback_background.jpeg");
+    background: url("assets/feedback_background.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
