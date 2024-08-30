@@ -1,0 +1,239 @@
+
+@media (max-width: 768px) {
+
+
+    /* nav bar reponsive deign */
+    .nav_bar{
+       
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100vw;
+    }
+    .mail_btn button{
+        width: 10vh;
+        height: 2vh;
+        font-size: 2vw;
+        
+    }
+    .logo img{
+        width: 10vw;
+        height: 10vw;
+        margin-top: 1vw;
+    }
+    .links i{
+        display: flex;
+        margin-top: -13.2vh;
+        position: absolute;
+        font-size: 4vh;
+    }
+    .nav_content .links a{
+        font-size: 5vw;
+        line-height: 8vw;
+        color: black;
+    }
+    
+    .links{
+        display:flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content:space-between;
+        width: 100%;
+        margin-bottom: 40vh;
+        padding-left: 10vw;
+    }
+    .nav_content {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 70%;
+        /* background-color: var(--color-bg); */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 1000;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .nav_content.active {
+        transform: translateX(0);
+    }
+ 
+    .hamburger-menu {
+        display: flex;
+        z-index: 999;
+    }
+    .arrow1,  .arrow1_1 {
+        display: none; /* Hide arrow buttons on mobile */
+    }
+    .arrow2{
+        transform: translateY(34em);
+        margin-left: 3vh;
+        width: 13vw;
+        height: 13vw;
+        
+    }
+
+    .slider {
+        height: 64vh; /* Adjust height for mobile */
+    }
+    
+    .footer {
+        display: none;
+    }
+    .abt_img img{
+        width: 60vw;
+        height: 30vh;
+    }
+    .border{
+        display: none;
+    }
+    .fdback_img img{
+        display: none;
+    }
+    .rating img{
+        width: 10vw;
+    }
+    .imgs img{
+        width: 12vw;
+    }
+    .design1 img{
+        display: none;
+    }
+
+    .slide {
+        flex-direction: column-reverse;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 4vh;
+        
+       
+    }
+    .info,.info1,.info2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .info, .info1, .info2 {
+        max-width: 90vw;
+        margin-left: 0;
+        
+        text-align: center;
+    }
+    .info1{
+        margin-top: -10vh;
+    }
+    .info h1{
+        font-size: 5vw;
+        margin-top: 25vh;
+        text-align: start;
+        line-height: 7vw;
+    }
+    .info button{
+
+    }
+    .info1 h1 {
+        font-size:6vw;
+        line-height: 7vw;
+        text-align: start;
+    }
+    .info2 h1{
+        font-size: 6vw;
+        line-height: 7vw;
+        text-align: start;
+    }
+    .info2{
+        margin-top: -10vh;
+    }
+    
+    .info p,.info1 p,.info2 p{
+        font-size: 3.1vw;
+        line-height: 5vw;
+        text-align: start;
+        
+    }
+    
+    
+    .info1 img{
+        width: 5vw;
+        height: 5vw;
+    }
+    .info img{
+        width: 10vw;
+        height: 10vw;
+    }
+    .info1 button{
+        
+        width: 20vw;
+        height: 3vh;
+        font-size: 2vw;
+        /* margin-top: 10vh; */
+        position: relative;
+        
+        margin-top: -0.1vw;
+        margin-left: -1vw;
+
+    }
+    .info button{
+        
+        width: 20vw;
+        height: 3vh;
+        font-size: 2vw;
+        margin-left:-1vw;
+        margin-top: -0.1vw;
+    }
+    .info2 button{
+        width: 20vw;
+        height: 3vh;
+        font-size: 2vw;
+        margin-left:-1vw;
+        margin-top: -0.1vw;
+    }
+    .info {
+        margin-top: 33vh;
+    }
+
+    
+
+    .image img, .image01 img, .image02 img {
+        width: 60vw;
+        height: auto;
+        margin-left: 0;
+        margin-top: 2vh;
+        margin-top: -6vh;
+    }
+    .image01 img{
+        width: 60vw;
+        
+    }
+
+    .footer {
+        position: static;
+        width: 90vw;
+        margin: 0 auto;
+        margin-top: 3vh;
+        justify-content: space-around;
+    }
+
+    .footer p {
+        font-size: 3.5vw;
+    }
+
+    .dotted_arrow {
+        display: none; /* Hide dotted arrows on mobile */
+    }
+
+
+}

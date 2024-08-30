@@ -41,6 +41,47 @@ document.addEventListener("DOMContentLoaded", function() {
     // Initialize the first slide as visible
     showSlide(currentSlide);
 });
+
+// let currentSlide = 0;
+// const slides = document.querySelectorAll('.slide');
+// const totalSlides = slides.length;
+
+// function showSlide(index) {
+//     slides.forEach(slide => slide.style.display = 'none');
+//     slides[index].style.display = 'flex';
+// }
+
+// function nextSlide() {
+//     currentSlide = (currentSlide + 1) % totalSlides;
+//     showSlide(currentSlide);
+// }
+
+// function prevSlide() {
+//     currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+//     showSlide(currentSlide);
+// }
+
+// // Initial setup
+// showSlide(currentSlide);
+
+// // Touch event handling for mobile
+// let startX;
+// slides.forEach(slide => {
+//     slide.addEventListener('touchstart', e => {
+//         startX = e.touches[0].clientX;
+//     });
+
+//     slide.addEventListener('touchmove', e => {
+//         const touchX = e.touches[0].clientX;
+//         if (startX - touchX > 50) {
+//             nextSlide();
+//         } else if (startX - touchX < -50) {
+//             prevSlide();
+//         }
+//     });
+// });
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const servicePannel = document.querySelectorAll('.services');
     const prevArrow1 = document.querySelectorAll('.arrow1_1');
@@ -128,10 +169,17 @@ document.querySelector('.mail_btn').addEventListener('click', function() {
 
 
 
-function toggleMenu() {
+  function toggleMenu() {
     const navContent = document.querySelector('.nav_content');
     navContent.classList.toggle('active');
 }
+
+  function closeMenu(){
+    const closeBtn =document.querySelector('#closebtn');
+    const navContent = document.querySelector('.nav_content');
+    navContent.classList.remove('active');
+
+  }
 
 gsap.from(".info h1,.info p,.info button",{
     y:30,
