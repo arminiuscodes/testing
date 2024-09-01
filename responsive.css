@@ -499,3 +499,15 @@
     
  
 }
+@media(max-width:1025px) {
+    .blog_section{
+        /* margin-top: 1vh; */
+       
+    }
+    .ending{
+       transform: translateY(-10vh);
+    }
+    .ending li{
+        font-size: 2vw;
+    }
+}

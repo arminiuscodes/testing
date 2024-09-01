@@ -189,7 +189,7 @@ gsap.from(".info h1,.info p,.info button",{
     // stagger:0.2
     
 });
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
-    smooth: true
-});
+
+
+
+

@@ -22,11 +22,16 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-html,body{
-    height: 100%;
-    width: 100%;
-    
+.html{
+    scroll-behavior: smooth;
+    overflow:hidden ;
 }
+body{
+    overflow-x: hidden;
+}
+/* [data-scroll-container] {
+    height: auto !important;
+} */
 
 .nav_bar{
     display:flex;
@@ -41,7 +46,7 @@ html,body{
     #F4FCFF
     
     
-    border:0.00vw,0.00vw,10x,0.00vw solid #101210;   
+    /* border:0.00vw,0.00vw,10x,0.00vw solid #101210;    */
 }
 
 .logo img{
@@ -603,12 +608,15 @@ html,body{
     /* margin-top: -vh; */
     /* display: flex; */
     height: 15vh;
+    min-height: 7vh;
+
+    
     /* background-color: black; */
     display: flex;
     justify-content: center;
     align-items: center;
     
-    flex:1 1 200px;
+     
     justify-content: space-evenly;
     align-items: center;
     margin-top: 25vh;
@@ -655,7 +663,10 @@ html,body{
 .blog_section{
     /* position:fixed; */
     width: 100vw;
-    height: 46.77vw;
+    height: 90vh;
+    /* min-height: 300px;
+    max-height: 70vh; */
+
     background: url("assets/blogpicture.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -664,7 +675,7 @@ html,body{
     justify-content: space-between;
     align-items: center;
     /* margin-top: 10vh; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     
 }
 .blog_info,.blog_info2{
@@ -781,7 +792,7 @@ html,body{
 /* feedback section css */
 .feedback_section{
     width: 100%;
-    height: 72.08vw;
+    height: 80vh;
     background: url("assets/feedback.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -814,6 +825,9 @@ html,body{
     margin-top: -4vh;
     
 }
+.feeedback_header{
+    transform: translateY(-8vh);
+}
 .cards{
     width: 80vw;
     height: 27.75rem;
@@ -822,6 +836,8 @@ html,body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    transform: translateY(-25vh);
+    
 }
 .cards01,.cards02,.cards03{
     width: 21.88vw;
@@ -872,7 +888,7 @@ html,body{
 }
 .our_team{
     width: 80vw;
-    height: 32rem;
+    height: 90vh;
     
     margin-left: 8vw;
 }
@@ -924,7 +940,7 @@ html,body{
 }
 /* multi image part */
 .multi_image{
-    width:100vw;
+    width:100%;
     height: 16.67vw;
     /* background-color: black; */
     /* margin-left: 8vw; */
@@ -932,6 +948,8 @@ html,body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: black; */
+   
 }
 .imgs{
     display: flex;
@@ -941,6 +959,10 @@ html,body{
 }
 .design img{
     margin-left: 28vw;
+}
+.imgs img{
+    width: 13vw;
+    height: 13vw;
 }
 /* whatsapp_contactpage */
 .whatsapp_contact{
@@ -1029,7 +1051,9 @@ html,body{
 /* last page css */
 .contact{
     width: 100vw;
-    height: 62vh;
+    height: 60vh;
+    margin-bottom: 0;
+    /* background-color: black; */
     background: url("assets/feedback_background.jpeg");
     background-size: cover;
     background-position: center;
