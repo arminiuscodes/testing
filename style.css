@@ -107,11 +107,11 @@ body{
 
 
 .slider{
-  width:100%;
+  width:100vw;
   height: 80vh;
   /* background: #040C18; */
   /* background-image:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%); */
-  background:url("assets/slidebg.jpg");
+  background:url("assets/slidebg.webp");
   backdrop-filter: blur(20px);
   /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
   object-fit: cover;
@@ -319,13 +319,13 @@ body{
 }
 /* ---- About us page ---- */
 .aboutus{
-   width: 100%;
+   width: 100vw;
    height: 100vh;
    margin-top: 9.5vh;
    display: flex;
    justify-content:space-evenly;
    align-items: center;
-   background: url("assets/slidebg.jpg");
+   background: url("assets/slidebg.webp");
    
 
 }
@@ -392,11 +392,11 @@ body{
 }
 /* -----services page ------- */
 .servicing{
-    width: 100%;
+    width: 100vw;
     height: auto;
     /* background: url("assets/background_services.jpeg"); */
     /* background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%); */
-    background: url("assets/service.jpg");
+    background: url("assets/service.webp");
     /* background: black; */
     background-size: cover;
     background-position: center;
@@ -814,7 +814,7 @@ body{
 .feedback_section{
     width: 100%;
     height: 80vh;
-    background: url("assets/feedback.png");
+    background: url("assets/feedback.webp");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -989,7 +989,7 @@ body{
 .whatsapp_contact{
     width: 100vw;
     height: 22.89vw;
-    background:url("assets/whatsapp\ contact.png");
+    background:url("assets/whatsapp\ contact.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1075,7 +1075,7 @@ body{
     height: 60vh;
     margin-bottom: 0;
     /* background-color: black; */
-    background: url("assets/feedback_background.jpeg");
+    background: url("assets/feedback_background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
