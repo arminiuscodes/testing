@@ -23,12 +23,14 @@
         width: 10vw;
         height: 10vw;
         margin-top: 1vw;
+        margin-left: -4vh;
     }
     .links i{
         display: flex;
         margin-top: -13.2vh;
         position: absolute;
-        font-size: 4vh;
+        width: 5vw;
+        height: 5vh;
     }
     .nav_content .links a{
         font-size: 5vw;
@@ -78,11 +80,15 @@
         display: none; /* Hide arrow buttons on mobile */
     }
     .arrow2{
-        transform: translateY(28em);
-        margin-left:40vh;
+        transform: translateY(30em);
+        margin-left:37vh;
         width: 13vw;
         height: 13vw;
         
+    }
+    .arrow2 img{
+        width: 5vw;
+        height: 3vw;
     }
 
     .slider {
@@ -137,21 +143,19 @@
         margin-top: -10vh;
     }
     .info h1{
-        font-size: 5vw;
+        font-size: 4vw;
         margin-top: 25vh;
         text-align: start;
         line-height: 7vw;
     }
-    .info button{
-
-    }
+    
     .info1 h1 {
-        font-size:6vw;
+        font-size:4vw;
         line-height: 7vw;
         text-align: start;
     }
     .info2 h1{
-        font-size: 6vw;
+        font-size: 4vw;
         line-height: 7vw;
         text-align: start;
     }
@@ -176,7 +180,7 @@
         width: 10vw;
         height: 10vw;
     }
-    .info1 button{
+    .info1 a{
         
         width: 20vw;
         height: 3vh;
@@ -188,7 +192,7 @@
         margin-left: -1vw;
 
     }
-    .info button{
+    .info a{
         
         width: 20vw;
         height: 3vh;
@@ -196,7 +200,7 @@
         margin-left:-1vw;
         margin-top: -0.1vw;
     }
-    .info2 button{
+    .info2 a{
         width: 20vw;
         height: 3vh;
         font-size: 2vw;
@@ -260,8 +264,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 80vh;
+    height: 86vh;
     margin-top: -0.1em;
+    padding-top: 3.5vh;
     
    }
    .abt_info button{
@@ -269,7 +274,7 @@
     height: 3vh;
     font-size: 2vw;
     margin-left: 13vh;
-    margin-top: -1vw;
+    transform: translateY(-3vh);
    }
    .abt_info button img{
     width: 4vw;
@@ -285,7 +290,7 @@
     flex-direction: column;
     justify-content: center;
     padding-bottom: 20vh;
-    margin-left: 6vh;
+    margin-left: 2vh;
    }
    .abt_info h1{
     font-size: 5vw;
@@ -296,7 +301,7 @@
     line-height: 7vw;
    }
    .abt_info h3{
-    font-size: 4vw;
+    font-size: 3.1vw;
     line-height: 5vw;
    }
    .abt_info h4 {
@@ -307,7 +312,7 @@
     width: 100vw;
     height: 90vh;
     margin-top: 100vh;
-    transform: translateY(-9rem);
+    transform: translateY(-34.3rem);
     display: flex;
     flex-direction: column;
  }
@@ -362,8 +367,9 @@
  }
  .services{
     width: 100vw;
-    height: 70vh;
+    height: 75vh;
     /* background-color: black; */
+    
  }
  .details2 img{
     display: none;
@@ -373,19 +379,25 @@
     width: 100vw;
     height: 40vh;
     
+    
  }
  .card1,.card2,.card3{
     width: 50vw;
     height: 50vw;
     border-radius: 5vw;
+    margin-left: 6vw;
  }
  .arrow2_2{
     width: 13vw;
     height: 13vw;
     /* transform: translateY(20vh); */
      
-    position: absolute;
-    margin-left: 40vh;
+    /* position: absolute;
+    margin-left: 40vh; */
+ }
+ .arrow2_2 img{
+    width: 5vw;
+    height: 3vw;
  }
  .service{
     /* background-color: black; */
@@ -394,6 +406,7 @@
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
+    margin-top: 62vh;
     
  }
  #slide1 .card2 ,#slide1 .card3{
@@ -405,7 +418,7 @@
  #slide3 .card1 ,#slide3 .card2{
     display: none;
  }
- #slide4 .card2 ,#slide4 .card3{
+ #slide4 .card1 ,#slide4 .card2{
     display: none;
  }
  .img img,.img01 img{
@@ -420,13 +433,17 @@
     line-height: 3vw;
  }
  #slide1 h1,#slide2 h1,#slide3 h1,#slide4 h1{
-    font-size: 4vw;
+    font-size: 5vw;
     line-height: 6vw;
-    text-align: start;
+    /* text-align: start; */
     /* text-align: center; */
     /* position: absolute;
     margin-top: 0.1vw; */
-    transform: translateY(2rem);
+    transform: translateY(3.4rem);
+    margin-left: -0.1vw;
+    padding-left: 6vw;
+    
+    
     
  }
  .digital_marketing_info{
@@ -436,7 +453,7 @@
     /* margin-top: -6vh; */
     background: url("assets/slidebg.jpg");
     height: 80vh;
-    /* transform: translateY(0.1rem); */
+    transform: translateY(3vh);
     padding-bottom: 50vh;
     
  }
@@ -446,12 +463,12 @@
  .info_img img{
     width: 60vw;
     height: 60vw;
-    margin-left: 23vh;
+    margin-left: 4vh;
     margin-top: 1vh;
     
  }
  .informations h2{
-    transform: translateY(7rem);
+    transform: translateY(11rem);
     margin-right: 9em;
     font-size: 5vw;
     line-height: 6vw;
@@ -461,33 +478,47 @@
  .details p {
     font-size: 3vw;
     line-height: 4vw;
-    transform: translateY(7rem);
+    transform: translateY(11rem);
     width: 30vh;
     margin-right: 15em;
  }
  .details2{
-    transform: translateY(7rem);
-    margin-right: 6rem;
+    transform: translateY(10rem);
+    margin-right: 3rem;
+    
 
  }
  .ending{
-    transform: translateY(-6.3rem);
+    transform: translateY(-28vh);
+    /* margin-top: -10vh; */
+    display: flex;
+    width: 90%;
+    /* background-color: black; */
+    
+    margin-left: -0.1vw;
+
  }
  .ending li{
     font-size: 4vw;
+    line-height: 5vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
  }
  .ending li span{
     font-size: 2vw;
     line-height: 3vw;
     width: 10vh;
-    transform: translateY(1em);
+    transform: translateY(-1em);
+    text-align: center;
     
  }
  .details2 li{
     font-size: 3vw;
     line-height: 5vw;
-    width: 30vh;
+    width: 40vh;
     display: flex;
  }
  .details2 li img{
@@ -504,10 +535,223 @@
         /* margin-top: 1vh; */
        
     }
-    .ending{
+    /* .ending{
        transform: translateY(-10vh);
-    }
+    } */
     .ending li{
         font-size: 2vw;
     }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wk-desk-1 {
+  width: 8.333333%;
+}
+
+.wk-desk-2 {
+  width: 16.666667%;
+}
+
+.wk-desk-3 {
+  width: 25%;
+}
+
+.wk-desk-4 {
+  width: 33.333333%;
+}
+
+.wk-desk-5 {
+  width: 41.666667%;
+}
+
+.wk-desk-6 {
+  width: 50%;
+}
+
+.wk-desk-7 {
+  width: 58.333333%;
+}
+
+.wk-desk-8 {
+  width: 66.666667%;
+}
+
+.wk-desk-9 {
+  width: 75%;
+}
+
+.wk-desk-10 {
+  width: 83.333333%;
+}
+
+.wk-desk-11 {
+  width: 91.666667%;
+}
+
+.wk-desk-12 {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .wk-ipadp-1 {
+    width: 8.333333%;
+  }
+
+  .wk-ipadp-2 {
+    width: 16.666667%;
+  }
+
+  .wk-ipadp-3 {
+    width: 25%;
+  }
+
+  .wk-ipadp-4 {
+    width: 33.333333%;
+  }
+
+  .wk-ipadp-5 {
+    width: 41.666667%;
+  }
+
+  .wk-ipadp-6 {
+    width: 50%;
+  }
+
+  .wk-ipadp-7 {
+    width: 58.333333%;
+  }
+
+  .wk-ipadp-8 {
+    width: 66.666667%;
+  }
+
+  .wk-ipadp-9 {
+    width: 75%;
+  }
+
+  .wk-ipadp-10 {
+    width: 83.333333%;
+  }
+
+  .wk-ipadp-11 {
+    width: 91.666667%;
+  }
+
+  .wk-ipadp-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk-tab-1 {
+    width: 8.333333%;
+  }
+
+  .wk-tab-2 {
+    width: 16.666667%;
+  }
+
+  .wk-tab-3 {
+    width: 25%;
+  }
+
+  .wk-tab-4 {
+    width: 33.333333%;
+  }
+
+  .wk-tab-5 {
+    width: 41.666667%;
+  }
+
+  .wk-tab-6 {
+    width: 50%;
+  }
+
+  .wk-tab-7 {
+    width: 58.333333%;
+  }
+
+  .wk-tab-8 {
+    width: 66.666667%;
+  }
+
+  .wk-tab-9 {
+    width: 75%;
+  }
+
+  .wk-tab-10 {
+    width: 83.333333%;
+  }
+
+  .wk-tab-11 {
+    width: 91.666667%;
+  }
+
+  .wk-tab-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .wk-mobile-1 {
+    width: 8.333333%;
+  }
+
+  .wk-mobile-2 {
+    width: 16.666667%;
+  }
+
+  .wk-mobile-3 {
+    width: 25%;
+  }
+
+  .wk-mobile-4 {
+    width: 33.333333%;
+  }
+
+  .wk-mobile-5 {
+    width: 41.666667%;
+  }
+
+  .wk-mobile-6 {
+    width: 50%;
+  }
+
+  .wk-mobile-7 {
+    width: 58.333333%;
+  }
+
+  .wk-mobile-8 {
+    width: 66.666667%;
+  }
+
+  .wk-mobile-9 {
+    width: 75%;
+  }
+
+  .wk-mobile-10 {
+    width: 83.333333%;
+  }
+
+  .wk-mobile-11 {
+    width: 91.666667%;
+  }
+
+  .wk-mobile-12 {
+    width: 100%;
+  }
 }
