@@ -39,10 +39,10 @@ body{
     box-shadow: 0 0.10vw 0.26vw -0.10vw rgba(0, 0, 0, 0.9);
     /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
     background-image:radial-gradient(circle at 3% 25%, rgb(233, 248, 255,1) 0%, rgba(4, 12, 24, 1) 25%);
-    #F4FCFF
     
     
-    /* border:0.00vw,0.00vw,10x,0.00vw solid #101210;    */
+    
+    
 }
 
 .logo img{
@@ -682,6 +682,12 @@ body{
     /* flex-wrap: wrap; */
     
 }
+.dm_content a:hover,.finance a:hover,.it_content a:hover,.hr_content a:hover{
+    color: white;
+    transition: all 0.5s;
+    
+}
+
 .blog_info,.blog_info2{
     display: flex;
     flex-direction: column;
