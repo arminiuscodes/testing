@@ -41,47 +41,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Initialize the first slide as visible
     showSlide(currentSlide);
 });
-
-// let currentSlide = 0;
-// const slides = document.querySelectorAll('.slide');
-// const totalSlides = slides.length;
-
-// function showSlide(index) {
-//     slides.forEach(slide => slide.style.display = 'none');
-//     slides[index].style.display = 'flex';
-// }
-
-// function nextSlide() {
-//     currentSlide = (currentSlide + 1) % totalSlides;
-//     showSlide(currentSlide);
-// }
-
-// function prevSlide() {
-//     currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-//     showSlide(currentSlide);
-// }
-
-// // Initial setup
-// showSlide(currentSlide);
-
-// // Touch event handling for mobile
-// let startX;
-// slides.forEach(slide => {
-//     slide.addEventListener('touchstart', e => {
-//         startX = e.touches[0].clientX;
-//     });
-
-//     slide.addEventListener('touchmove', e => {
-//         const touchX = e.touches[0].clientX;
-//         if (startX - touchX > 50) {
-//             nextSlide();
-//         } else if (startX - touchX < -50) {
-//             prevSlide();
-//         }
-//     });
-// });
-
-
 document.addEventListener("DOMContentLoaded", function() {
     const servicePannel = document.querySelectorAll('.services');
     const prevArrow1 = document.querySelectorAll('.arrow1_1');
@@ -125,6 +84,119 @@ document.addEventListener("DOMContentLoaded", function() {
     // Initialize the first slide as visible
     showSlides(currentSlides);
 });
+// let currentSlide = 0;
+// const slides = document.querySelectorAll('.slide');
+// const totalSlides = slides.length;
+
+// function showSlide(index) {
+//     slides.forEach(slide => slide.style.display = 'none');
+//     slides[index].style.display = 'flex';
+// }
+
+// function nextSlide() {
+//     currentSlide = (currentSlide + 1) % totalSlides;
+//     showSlide(currentSlide);
+// }
+
+// function prevSlide() {
+//     currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+//     showSlide(currentSlide);
+// }
+
+// // Initial setup
+// showSlide(currentSlide);
+
+// // Touch event handling for mobile
+// let startX;
+// slides.forEach(slide => {
+//     slide.addEventListener('touchstart', e => {
+//         startX = e.touches[0].clientX;
+//     });
+
+//     slide.addEventListener('touchmove', e => {
+//         const touchX = e.touches[0].clientX;
+//         if (startX - touchX > 50) {
+//             nextSlide();
+//         } else if (startX - touchX < -50) {
+//             prevSlide();
+//         }
+//     });
+// });
+
+
+// document.addEventListener("DOMContentLoaded", function () {
+//     const slides = document.querySelectorAll('.slide');
+//     const arrows = document.querySelectorAll('.arrow1, .arrow2');
+//     let currentSlideIndex = 0;
+
+//     // Function to animate slide transitions with a smooth fade and scale effect
+//     function animateSlideTransition(nextSlideIndex) {
+//         const currentSlide = slides[currentSlideIndex];
+//         const nextSlide = slides[nextSlideIndex];
+
+//         // Animate current slide out, excluding the footer
+//         gsap.to(currentSlide.querySelectorAll(':scope > *:not(.footer)'), {
+//             opacity: 0,
+//             scale: 0.9,
+//             duration: 0.8,
+//             ease: "power2.inOut",
+//             onComplete: () => currentSlide.style.display = 'none'
+//         });
+
+//         // Animate next slide in, excluding the footer
+//         nextSlide.style.display = 'flex';
+//         gsap.fromTo(nextSlide.querySelectorAll(':scope > *:not(.footer)'), {
+//             opacity: 0,
+//             scale: 1.1
+//         }, {
+//             opacity: 1,
+//             scale: 1,
+//             duration: 1,
+//             ease: "power2.out",
+//         });
+
+//         currentSlideIndex = nextSlideIndex;
+//     }
+
+//     function nextSlide() {
+//         const nextSlideIndex = (currentSlideIndex + 1) % slides.length;
+//         animateSlideTransition(nextSlideIndex);
+//     }
+
+//     function prevSlide() {
+//         const prevSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
+//         animateSlideTransition(prevSlideIndex);
+//     }
+
+//     arrows.forEach(arrow => {
+//         arrow.addEventListener('click', function (e) {
+//             e.stopPropagation();
+//             if (arrow.classList.contains('arrow1')) {
+//                 prevSlide();
+//             } else {
+//                 nextSlide();
+//             }
+//         });
+//     });
+
+//     // Initialize the first slide as visible with a smooth entrance animation, excluding the footer
+//     slides.forEach((slide, i) => {
+//         if (i === 0) {
+//             gsap.fromTo(slide.querySelectorAll(':scope > *:not(.footer)'), {
+//                 opacity: 0,
+//                 scale: 1.1
+//             }, {
+//                 opacity: 1,
+//                 scale: 1,
+//                 duration: 1.2,
+//                 ease: "power2.out",
+//             });
+//         } else {
+//             slide.style.display = 'none';
+//         }
+//     });
+// });
+
 
 
 
@@ -181,14 +253,16 @@ document.querySelector('.mail_btn').addEventListener('click', function() {
 
   }
 
-gsap.from(".info h1,.info p,.info button",{
-    y:30,
-    opacity:0,
-    delay:0.2,
-    duration:1.5,
-    // stagger:0.2
+// gsap.from(".info h1,.info p,.info button",{
+//     y:30,
+//     opacity:0,
+//     delay:0.2,
+//     duration:1.5,
+//     // stagger:0.2
     
-});
+// });
+
+
 
 
 

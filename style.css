@@ -10,11 +10,7 @@
     --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
     
-    /* --color-bg: #040C18;
-    --color-footer : #031B34;
-    --color-blog: #042c54;
-    --color-text: #81AFDD;
-    --color-subtext: #FF8A71; */
+    
   }
   .gradient__text {
     background: var(--gradient-text);
@@ -69,7 +65,7 @@ body{
     background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
 }
 .nav_content .links{
     display: flex;
@@ -138,6 +134,7 @@ body{
    margin-left: 12vw;
    
 }
+
 .info,.info1,.info2{
     max-width: 60vw;
     display: flex;
@@ -161,7 +158,7 @@ body{
     /* background:var(--gradient-bar); */
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);;
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
 }
 
 .arrow1 img,.arrow1_1 img{
@@ -183,7 +180,7 @@ body{
     /* background: var(--gradient-bar); */
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
 }
 .arrow2 img,.arrow2_2 img{
     width: 0.89vw;
@@ -254,7 +251,7 @@ body{
     margin-left: 9vw;
     margin-top: 8vh;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     cursor: pointer;
 }
@@ -386,7 +383,7 @@ body{
     margin-left: 3vw;
     margin-top: 8vh;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     align-items: center;
     cursor: pointer;
 }
@@ -464,7 +461,7 @@ body{
     backdrop-filter: blur(10px);
     /* -webkit-backdrop-filter: blur(10px); */
     border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
     border-radius: 1.56vw;
 }
 #active{
@@ -482,9 +479,15 @@ body{
     backdrop-filter:blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Subtle shadow */
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
+    
     /* border:none; */
+}
+.border img{
+    width: 50vw;
+    height: 10vw;
+    /* transform: translateX(-6vw); */
+    
 }
 .card2 img{
     width: 8.70vw;
@@ -528,6 +531,7 @@ body{
 }
 .info_img img{
     margin-right: 45vw;
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
 }
 .info_contents{
     position:absolute;
@@ -695,7 +699,7 @@ body{
     background: linear-gradient(135deg,rgba(240, 235, 235, 0.26),rgba(255,255,255,0));
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
 }
 .finance{
     width: 37.66vw;
@@ -705,7 +709,7 @@ body{
     background: linear-gradient(135deg,rgba(240, 235, 235, 0.26),rgba(255,255,255,0));
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
     border-radius: 1.04vw;
     margin-top: 2vh;
 }
@@ -728,7 +732,7 @@ body{
     background: linear-gradient(135deg,rgba(240, 235, 235, 0.26),rgba(255,255,255,0));
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
     border-radius: 1.04vw;
     
     /* margin-right: 15vw; */
@@ -741,7 +745,7 @@ body{
     background: linear-gradient(135deg,rgba(240, 235, 235, 0.26),rgba(255,255,255,0));
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255,255,255,0.1);
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
     border-radius: 1.04vw;
     margin-top: 2vh;
 }
@@ -814,7 +818,8 @@ body{
 .feedback_section{
     width: 100%;
     height: 80vh;
-    background: url("assets/feedback.webp");
+    /* background: url("assets/feedback.webp"); */
+    background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -846,6 +851,10 @@ body{
     margin-top: -4vh;
     
 }
+.fdback_img img{
+    width: 40vw;
+    height: 10vw;
+}
 .feeedback_header{
     transform: translateY(-8vh);
 }
@@ -863,7 +872,14 @@ body{
 .cards01,.cards02,.cards03{
     width: 21.88vw;
     height: 18.75vw;
-    background-color: white;
+    /* background-color: white; */
+    border-radius: 1.4vw;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+    border-radius: 1.4vw;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
+   
     border-radius: 1.30vw;
     display: flex;
     flex-direction: column;
@@ -908,17 +924,19 @@ body{
     justify-content: space-around;
 }
 .our_team{
-    width: 80vw;
+    width: 100vw;
     height: 90vh;
-    
-    margin-left: 8vw;
+    background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+    /* margin-left: 8vw; */
+    /* margin-top: -6vh; */
 }
 .ourteam{
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 5vh;
+    transform: translateY(4.7vh);
     gap: 2vh;
 }
 .ourteam h3{
@@ -937,13 +955,17 @@ body{
     text-align: center;
 }
 .minicards{
+    width: 80vw;
     display: flex;
     justify-content: space-evenly;
     margin-top: 12vh;
+    margin-left: 8vw;
+
 }
 .min_card img{
    width: 8.80vw;
    height: 8.80vw;
+   
 }
 .min_card{
     display: flex;
@@ -969,14 +991,17 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: black; */
+    
    
 }
 .imgs{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 1vh;
+    width: 90vw;
+    
+    
 }
 .design img{
     margin-left: 28vw;
@@ -984,6 +1009,8 @@ body{
 .imgs img{
     width: 13vw;
     height: 13vw;
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
+    border-radius: 2vh;
 }
 /* whatsapp_contactpage */
 .whatsapp_contact{

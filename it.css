@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    width: 100vw;
+    height: 100vh;
+    overflow-x:hidden ;
+}
+.nav_bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 6.56vw;
+    top: 0.03vw;
+    box-shadow: 0 0.10vw 0.26vw -0.10vw rgba(0, 0, 0, 0.9);
+    /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
+    background-image:radial-gradient(circle at 3% 25%, rgb(233, 248, 255,1) 0%, rgba(4, 12, 24, 1) 25%);
+    
+    
+    
+    
+}
+
+.logo img{
+    width:6.88vw;
+    height: 5.65vw;
+    margin-left: 3.12vw;
+    margin-top: 0.39vw;
+    
+}
+.nav_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18vw;
+    width: 40vw;
+    height: 6vh;
+    /* background-color: black; */
+    border-radius: 1.4vw;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
+}
+.nav_content .links{
+    display: flex;
+    gap: 1.04vw; /* Adds space between links */
+   
+}
+.nav_content .links a{
+    font-family: "Kumbh Sans", sans-serif;
+    padding: 1.6vw;
+    font-weight: 600;
+    font-size: 0.94vw;
+    line-height: 1.35vw;
+    cursor: pointer;
+    text-decoration: none; /* Removes the underline */
+    color:white; /* Adjust as needed */
+}
+.nav_content .links a:hover{
+    color:#E98958;
+    transition: ease-in-out,0.2s;
+}
+
+.mail_btn button{
+    border: none;
+    width: 12.51vw;
+    height:2.71vw;
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 500;
+    font-size: 1.04vw;
+    line-height: 1.35vw;
+    border-radius: 0.26vw;
+    background-color:#E98958;
+    margin-right: 5vw;
+    cursor: pointer;
+}
+
+body{
+    background:rgba(29, 101, 146, 0.193)
+    
+}
+.blog_page{
+    width: 70vw;
+    height:200vh;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
+    /* border-radius: 10vw; */
+    margin-left: 15vw;
+    margin-top: 3vh;
+    border-radius: 2vh;
+
+}
+.header h4{
+    font-family: "Inter Sans",sans-serif;
+    text-align: center;
+    font-size: 1.7vw;
+    margin-top: 3vh;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2vw;
+    padding-top: 2vw;
+    margin-left: 4vw;
+    flex-wrap: wrap;
+}
+.content1,.content2,.content3,.content4,.content5{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.content1 h4,.content2 h4,.content3 h4,.content4 h4,.content5 h4{
+    font-family: "DM Sans",sans-serif;
+    font-size: 1.2vw;
+}
+.content1 p,.content2 p,.content3 p,.content4 p,.content5 p{
+    font-family: "Kumbh Sans",sans-serif;
+    color: #101210;
+    font-size: 0.9rem;
+    line-height: 1.4vw;
+    width: 40vw;
+    
+}
+ul li{
+    font-family: "Kumbh Sans",sans-serif;
+    color: #101210;
+    font-size: 0.9rem;
+    line-height: 1.4vw;
+    width: 40vw;
+    margin-left: 1vw;
+}
+ul li span{
+    font-weight: bold;
+}
+footer h4{
+    font-family: "Inter Sans",sans-serif;
+    font-size: 1.1vw;
+    text-align: center;
+    margin-top: 4vh;
+}
