@@ -239,17 +239,26 @@ document.querySelector('.mail_btn').addEventListener('click', function() {
     window.location.href = mailtoLink;
   });
 
-
+document.querySelector('.contact_deatils img').addEventListener('click',function(){
+    const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
+    window.location.href=whatsApp;
+});
+document.querySelector('.first').addEventListener('click',function(){
+    const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
+    window.location.href=whatsApp;
+});
 
   function toggleMenu() {
-    const navContent = document.querySelector('.nav_content');
-    navContent.classList.toggle('active');
+    const sideBar = document.querySelector('#sidebar');
+    sideBar.style.display = "flex";
+    
 }
 
   function closeMenu(){
     const closeBtn =document.querySelector('#closebtn');
-    const navContent = document.querySelector('.nav_content');
-    navContent.classList.remove('active');
+    const sideBar = document.querySelector('#sidebar');
+    sideBar.style.display = "none";
+    
 
   }
 

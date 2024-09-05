@@ -19,12 +19,13 @@
         rel="stylesheet">
     
     <link rel="stylesheet" href="responsive.css">
+   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body> 
     
-        <div id="container"  data-scroll-container>
+        <div id="container">
             <div class="nav_bar">
                 <div class="logo">
                     <img src="assets/logo 1.webp" alt="">
@@ -37,7 +38,7 @@
                         <a href="#service">Services</a>
                         <a href="#blog">Blog</a>
                         <a href="#contact">Contact</a>
-                        <i class="fa-solid fa-xmark" id="closebtn" onclick=closeMenu()></i>
+                        
                     </div>
                 </div>
                 <div class="mail_btn">
@@ -46,8 +47,26 @@
                 <div class="hamburger-menu" onclick="toggleMenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
+            </div>
+            <div class="nav_bar" id="sidebar">
+                <div class="logo">
+                    <img src="assets/logo 1.webp" alt="">
+                </div>
                 
-                
+                <div class="navcontent">
+                    <div class="links">
+                        <i class="fa-solid fa-xmark" id="closebtn" onclick=closeMenu()></i>
+                        <a href="./">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#service">Services</a>
+                        <a href="#blog">Blog</a>
+                        <a href="#contact">Contact</a>
+                        
+                    </div>
+                </div>
+                <div class="mail_btn">
+                    <button>vcs@gmail.com</button>
+                </div>
                 
             </div>
             <div class="slider">
@@ -64,7 +83,7 @@
                         <a href="contact.html"> Contact Us <img src="assets/Icon.webp" alt=""></a>
                     </div>
                     <div class="image">
-                        <img src="assets/digitalmarketing.webp" alt="">
+                        <img src="assets/digitalmarketingbanner.webp" alt="">
                     </div>
                     <div class="arrow2">
                         <img src="assets/Arrow 2.webp" alt="">
@@ -126,7 +145,7 @@
                         <a href="contact.html">Contact Us<img src="assets/Icon.webp" alt=""></a>
                     </div>
                     <div class="image02">
-                        <img src="assets/DM&IT.webp" alt="">
+                        <img src="assets/it banner.webp" alt="">
                     </div>
                     
                     <div class="arrow2">
@@ -151,7 +170,7 @@
             <!-- ---- About us page ------ -->
             <div class="aboutus" id="about">
                 <div class="abt_img">
-                    <img src="assets/abtus.webp" alt="">
+                    <img src="assets/aboutusfinal.webp" alt="">
                 </div>
                 <div class="abt_info">
                     <h1>About us</h1>
@@ -243,7 +262,7 @@
                                 <li><img src="assets/double-tick.webp" alt="">Pay- Per - Click</li>
                                 <li><img src="assets/double-tick.webp" alt="">Email Marketing</li>
                             
-                                <hr class="horizontal_line2">
+                                <!-- <hr class="horizontal_line2"> -->
                                 <div class="star">
                                 <img src="assets/shape-2.png.webp" alt="">
                                 </div>
@@ -339,7 +358,7 @@
                                         <li><img src="assets/double-tick.webp" alt="">Payroll & Legal Advisory</li>
                                         <li><img src="assets/double-tick.webp" alt="">Employee Engagement & Retention</li>
                                     
-                                        <hr class="horizontal_line2">
+                                        <!-- <hr class="horizontal_line2"> -->
                                         <div class="star">
                                         <img src="assets/shape-2.png.webp" alt="" class="star">
                                          </div>
@@ -434,7 +453,7 @@
                                                         <li><img src="assets/double-tick.webp" alt="">Application Support</li>
                                                         <li><img src="assets/double-tick.webp" alt="">Cloud Services & Vendor Management</li>
                                                     
-                                                        <hr class="horizontal_line2">
+                                                        <!-- <hr class="horizontal_line2"> -->
                                                         <div class="star">
                                                         <img src="assets/shape-2.png.webp" alt="" class="star">
                                                         </div>
@@ -531,7 +550,7 @@
                                     <li><img src="assets/double-tick.webp" alt="">Wealth Management</li>
                                     <li><img src="assets/double-tick.webp" alt="">Insurance (Life, Health, Property, Vehicle)</li>
                                 
-                                    <hr class="horizontal_line2">
+                                    <!-- <hr class="horizontal_line2"> -->
                                     <div class="star">
                                     <img src="assets/shape-2.png.webp" alt="" class="star">
                                     </div>
@@ -572,12 +591,12 @@
                     <div class="dm_content">
                         <h2 class="gradient__text">Digital Marketing</h2>
                         <p>Complete Digital Marketing Solutions, Telemarketing, Database <br> Profiling, Audience Generation for events.</p>
-                        <a href="">Read More <img src="assets/Vector.webp" alt=""></a>
+                        <a href="dmblog.html">Read More <img src="assets/Vector.webp" alt=""></a>
                     </div>
                     <div class="finance">
                         <h2 class="gradient__text">Finance</h2>
                         <p>Financial Planning, Advisory Services, Wealth Management.</p>
-                        <a href="">Read More <img src="assets/Vector.webp" alt=""></a>
+                        <a href="financeblog.html">Read More <img src="assets/Vector.webp" alt=""></a>
                     </div>
                 </div>
                 <div class="blog_info2">
@@ -727,6 +746,26 @@
                         </div>
                      </div>
                 </div>
+                <div class="our_clients">
+                    <div class="client_heading">
+                        <h4>Our Clients</h4>
+                        <p>Here are the clients that we have worked with,providing our services to fulfill their requirements.</p>
+                    </div>
+                    <div class="image_pannel">
+                        <div class="imagepannel01">
+                            <img src="assets/img1 (1).webp" alt="">
+                            <img src="assets/img1 (2).webp" alt="">
+                            <img src="assets/img1 (3).webp" alt="">
+                            <img src="assets/img1 (4).webp" alt="">
+                        </div>
+                        <div class="imagepannel02">
+                            <img src="assets/img1 (5).webp" alt="">
+                            <img src="assets/img1 (5).webp" alt="">
+                            <img src="assets/img1 (1).webp" alt="">
+                            <img src="assets/img1 (2).webp" alt="">
+                        </div>
+                    </div>
+                </div>
 
              
              <div class="whatsapp_contact">
@@ -805,6 +844,12 @@
                         <a href="">Faqs</a>
                     </div>
                 </div>
+             </div>
+             <div class="sticky_buttons">
+                <ul>
+                    <i class="fa-brands fa-whatsapp first" ></i>
+                    <i class="fa-solid fa-phone second"></i>
+                </ul>
              </div>
             
 

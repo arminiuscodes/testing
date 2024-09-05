@@ -113,12 +113,12 @@ body {
     gap: 1rem;
 }
 
-.content1 h4, .content2 h4, .content3 h4, .content4 h4, .content5 h4 {
+.content1 h4, .content2 h4, .content3 h4, .content4 h4, .content5 h4,.content01 h4,.content02 h4,.content03 h4,.content04 h4,.content05 h4,.content06 h4 {
     font-family: "DM Sans", sans-serif;
     font-size: 1.25rem;
 }
 
-.content1 p, .content2 p, .content3 p, .content4 p, .content5 p, ul li {
+.content1 p, .content2 p, .content3 p, .content4 p, .content5 p, ul li,.content01 p,.content02 p,.content03 p,.content04 p ,.content05 p,.content06 p {
     font-family: "Kumbh Sans", sans-serif;
     color: #101210;
     font-size: 1rem;
@@ -162,6 +162,10 @@ footer h4 {
     display: none;
    
 }
+.bg img{
+    width: 65vw;
+    height: 20vw;
+}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
@@ -188,6 +192,7 @@ footer h4 {
     .content {
         gap: 0.5rem;
     }
+ 
 }
 
 @media (max-width: 768px) {
@@ -275,6 +280,10 @@ footer h4 {
     .content1 h4, .content2 h4, .content3 h4, .content4 h4, .content5 h4 {
         font-size: 1rem;
     }
+    .bg img{
+        width: 90vw;
+        height: 20vh;
+    }
  
 }
 
@@ -355,7 +364,10 @@ footer h4 {
         padding: 1rem;
     }
 
-    .content1 h4, .content2 h4, .content3 h4, .content4 h4, .content5 h4 {
+    .content1 h4, .content2 h4, .content3 h4, .content4 h4, .content5 h4{
+        font-size: 0.875rem;
+    }
+    .content01 h4{
         font-size: 0.875rem;
     }
 
