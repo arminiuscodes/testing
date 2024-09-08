@@ -118,12 +118,19 @@ body{
     height:2.71vw;
     font-family: "Kumbh Sans", sans-serif;
     font-weight: 500;
-    font-size: 1.04vw;
+    font-size: 0.7vw;
     line-height: 1.35vw;
     border-radius: 0.26vw;
     background-color:#E98958;
     margin-right: 5vw;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mail_btn button i{
+    font-size: 1vw;
 }
 
 .slider{
@@ -167,7 +174,7 @@ body{
     justify-content: space-evenly;
 
 }
-.arrow1,.arrow1_1{
+.arrow1,.arrow1_1,.arrow1__1{
     
     width: 3.59vw;
     height: 3.59vw;
@@ -185,11 +192,11 @@ body{
     /* box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8); */
 }
 
-.arrow1 img,.arrow1_1 img{
+.arrow1 img,.arrow1_1 img,.arrow1__1 img{
     width: 0.89vw;
     height: 0.52vw;
 }
-.arrow2,.arrow2_2{
+.arrow2,.arrow2_2,.arrow2__2{
     
     width: 3.59vw;
     height: 3.59vw;
@@ -206,7 +213,7 @@ body{
     border: 1px solid rgba(255,255,255,0.1);
     /* box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8); */
 }
-.arrow2 img,.arrow2_2 img{
+.arrow2 img,.arrow2_2 img,.arrow2__2 img{
     width: 0.89vw;
     height: 0.52vw;
 }
@@ -280,18 +287,21 @@ body{
     cursor: pointer;
 }
 .image img{
-    width: 28vw;
-    height: 28vw; 
+    width: 30vw;
+    height: 30vw; 
     margin-left: 18vw;
-    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
+    filter: drop-shadow(15px 15px 15px #212020);
 }
+
 .image01 img{
     width: 30vw;
     height: 30vw; 
     margin-left: 18vw;
     filter: drop-shadow(15px 15px 15px #212020);
     
+    
 }
+
 .image02 img{
     width: 28vw;
     height: 28vw;
@@ -414,7 +424,8 @@ body{
 /* -----services page ------- */
 .servicing{
     width: 100vw;
-    height: auto;
+    height: 130vh;
+ 
     /* background: url("assets/background_services.jpeg"); */
     /* background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%); */
     background: url("assets/service.webp");
@@ -489,7 +500,7 @@ body{
     border-radius: 1.56vw;
 }
 #active{
-    background-color: #E8E8E8;;
+    background-color:  #D1AD25;
 }
 .card2,.card3,.card4{
     display: flex;
@@ -707,7 +718,7 @@ body{
     
 }
 .dm_content a:hover,.finance a:hover,.it_content a:hover,.hr_content a:hover{
-    color: white;
+    color:var(--gradient-text);
     transition: all 0.5s;
     
 }
@@ -830,8 +841,14 @@ body{
     font-family: "Kumbh Sans",sans-serif;
     font-weight: 500;
     line-height: 1.35vw;
-    font-size: 0.83vw;
-    color: #101210;
+    font-size: 0.8vw;
+    color: white;
+    
+    
+   
+}
+.dm_content a img,.finance a img,.hr_content a img,.it_content a img{
+    display: none;
 }
 .picture{
     margin-top: -40vh;
@@ -846,7 +863,7 @@ body{
 }
 /* feedback section css */
 .feedback_section{
-    width: 100%;
+    width: 100vw;
     height: 80vh;
     /* background: url("assets/feedback.webp"); */
     background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
@@ -954,9 +971,10 @@ body{
     justify-content: space-around;
 }
 .our_team{
-    width: 100%;
+    width: 100vw;
     height: 90vh;
-    background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);
+    background:url("assets/slidebg.webp");
+    /* background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%); */
     /* margin-left: 8vw; */
     /* margin-top: -6vh; */
 }
@@ -1186,13 +1204,17 @@ body{
     padding-bottom: 3vh;
     
 }
-.informations p,.newsletter p{
+.informations a,.newsletter p{
     font-family: "Kumbh Sans",sans-serif;
     color: #7b7b7b;
     font-weight: 400;
     font-size: 0.83vw;
     line-height: 1.35vw;
     margin-top: 1vh;
+    text-decoration: none;
+}
+.informations a:hover{
+    color: black;
 }
 .contact_us,.newsletter{
     display: flex;
@@ -1215,6 +1237,9 @@ body{
     line-height: 1.35vw;
     margin-top: 1vh;
     text-decoration: underline;
+}
+.contact_us a:hover{
+    color: black;
 }
 .contact_us{
     padding-bottom: 1.8vh;
@@ -1423,9 +1448,11 @@ body{
     font-size: 1.2vw;
 }
 .our_clients{
-    width: 100%;
+    width: 100vw;
     height: 60vh;
-    background: var(--gradient-bar);
+    background: linear-gradient(109.6deg, rgb(120, 212, 234) 11.2%, rgb(216, 226, 253) 72.1%);
+    background-size: cover;
+    background-position: center;
 }
 .client_heading{
     display: flex;
@@ -1440,31 +1467,56 @@ body{
     font-family: "DM Sans",sans-serif;
 }
 .client_heading p{
-    font-size: 1vw;
+    font-size: 1.1vw;
     font-family: "Kumbh Sans",sans-serif;
-    color: #101210b0;
+    color:#101210;
+    text-align: center;
 }
-.image_pannel{
+/* Container Styling */
+
+
+
+.swiping{
     display: flex;
-    flex-direction: column;
-    width: 80vw;
-    height: 40vh;
-    margin-left: 8vw;
-    padding-top: 2vh;
-}
-.imagepannel02{
-  padding-top: 2vh;
-}
-.imagepannel01,.imagepannel02{
-    display: flex;
-    justify-content: space-evenly;
+    width: 100vw;
+    height: 20vw;
+    
     align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
 }
-.imagepannel01 img,.imagepannel02 img{
+.sliding_feature{
+    display: flex;
+    gap: 1.5vw;
+}
+.cd1{
+    width: 12vw;
+    height: 12vw;
+    background-color:#fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    
+}
+.cd1:hover  {
+    transform: scale(1.1); /* Scale up the image on hover */
+    transition: all 0.5s;
+    background: var(--gradient-bar);
+}
+.cd1 img{
     width: 10vw;
-    height: 10vw;
+    height: 6vw;
 }
   
+
+
+
+
+
 
 
     

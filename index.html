@@ -19,6 +19,11 @@
         rel="stylesheet">
     
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -42,7 +47,7 @@
                     </div>
                 </div>
                 <div class="mail_btn">
-                    <button>vcs@gmail.com</button>
+                    <button><i class="fa-regular fa-envelope"></i>info@vcsconsulting.in</button>
                 </div>
                 <div class="hamburger-menu" onclick="toggleMenu()">
                     <i class="fa-solid fa-bars"></i>
@@ -83,7 +88,7 @@
                         <a href="contact.html"> Contact Us <img src="assets/Icon.webp" alt=""></a>
                     </div>
                     <div class="image">
-                        <img src="assets/digitalmarketingbanner.webp" alt="">
+                        <img src="assets/digitalmarketing.webp" alt="">
                     </div>
                     <div class="arrow2">
                         <img src="assets/Arrow 2.webp" alt="">
@@ -93,11 +98,10 @@
                     </div>
                     <div class="footer">
 
-                        <p><img src="assets/it (2).webp" alt="" width="53px" height="53px">IT Services</p>
-                        <p><img src="assets/digital mrketing.webp" alt="" width="36px" height="38px"><span>Digital
-                                Marketing</span></p>
-                        <p><img src="assets/fiance.webp" alt="">Financial Services</p>
-                        <p><img src="assets/hr services.webp" alt="">HR Services</p>
+                        <p><img src="assets/digital mrketing.webp" alt="" width="53px" height="53px"> <span>Digital Marketing</span></p>
+                        <p><img src="assets/hr services.webp" alt="" width="36px" height="38px">HR Services</p>
+                        <p><img src="assets/it (2).webp" alt="">IT Services</p>
+                        <p><img src="assets/fiance.webp" alt="">Finance Services</p>
 
                     </div>
 
@@ -117,6 +121,8 @@
                     </div>
                     <div class="image01">
                         <img src="assets/seo2.webp" alt="">
+                       
+                       
                     </div>
                     
                     <div class="arrow2">
@@ -183,7 +189,7 @@
                         Our vision is to be a trusted partner in our clients' growth journeys,<br>driving innovation and
                         success through our comprehensive service <br>offerings.
                     </h4>  -->
-                    <button>Read More <img src="assets/Icon.webp" alt=""></button>
+                    <button>Contact Us <img src="assets/Icon.webp" alt=""></button>
                 </div>
             </div>
 
@@ -274,12 +280,12 @@
     
     
                     </div>
-                    <div class="ending">
+                    <!-- <div class="ending">
                         <li>16M +<br><span>Total Advertising Partners</span></li>
                         <li>16% <br><span>Sales Increasements</span></li>
                         <li>5K+ <br><span>Social Campaigns</span></li>
                         <li>16K+<br><span>Paid Marketing Tools</span></li>
-                    </div>
+                    </div> -->
                 </div>
                 
                 
@@ -371,12 +377,12 @@
             
             
                             </div>
-                            <div class="ending">
+                            <!-- <div class="ending">
                                 <li>16M +<br><span>Total Advertising Partners</span></li>
                                 <li>16% <br><span>Sales Increasements</span></li>
                                 <li>5K+ <br><span>Social Campaigns</span></li>
                                 <li>16K+<br><span>Paid Marketing Tools</span></li>
-                            </div>
+                            </div> -->
                         </div>
                        
                         
@@ -465,12 +471,12 @@
                             
                             
                                             </div>
-                                            <div class="ending">
+                                            <!-- <div class="ending">
                                                 <li>16M +<br><span>Total Advertising Partners</span></li>
                                                 <li>16% <br><span>Sales Increasements</span></li>
                                                 <li>5K+ <br><span>Social Campaigns</span></li>
                                                 <li>16K+<br><span>Paid Marketing Tools</span></li>
-                                            </div>
+                                            </div> -->
                                         </div>
                                         
                                         
@@ -562,12 +568,12 @@
                             
         
                         </div>
-                        <div class="ending">
+                        <!-- <div class="ending">
                             <li>16M +<br><span>Total Advertising Partners</span></li>
                             <li>16% <br><span>Sales Increasements</span></li>
                             <li>5K+ <br><span>Social Campaigns</span></li>
                             <li>16K+<br><span>Paid Marketing Tools</span></li>
-                        </div>
+                        </div> -->
         
         
         
@@ -698,7 +704,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="our_team">
+                <div class="our_team" id="team">
                     <div class="ourteam">
                         <h3>Our Team</h3>
                         <p>our customers are at the heart of everything we do. We’re proud to share some of <br>
@@ -746,26 +752,115 @@
                         </div>
                      </div>
                 </div>
-                <div class="our_clients">
+               
+                <div class="our_clients" id="client">
                     <div class="client_heading">
-                        <h4>Our Clients</h4>
-                        <p>Here are the clients that we have worked with,providing our services to fulfill their requirements.</p>
+                        <h4 class="gradient__text">Our Clients</h4>
+                        <p>Here are the clients that we have worked with,providing our services to <br> fulfill their requirements.
+                        We provide our expertise to ensure that <br> our clients are fully satisfied with result.</p>
                     </div>
-                    <div class="image_pannel">
-                        <div class="imagepannel01">
-                            <img src="assets/img1 (1).webp" alt="">
-                            <img src="assets/img1 (2).webp" alt="">
-                            <img src="assets/img1 (3).webp" alt="">
-                            <img src="assets/img1 (4).webp" alt="">
+                    <div class="swiper">
+                    <div class="swiping">
+                        
+                        <div class="arrow1__1">
+                            <img src="assets/Arrow 3.webp" alt="">
                         </div>
-                        <div class="imagepannel02">
-                            <img src="assets/img1 (5).webp" alt="">
-                            <img src="assets/img1 (5).webp" alt="">
-                            <img src="assets/img1 (1).webp" alt="">
-                            <img src="assets/img1 (2).webp" alt="">
+                        <div class="sliding_feature">
+                            <div class="cd1">
+                                <img src="assets/upgrad-header-logo.19ba8cde.webp" alt="">
+                            </div>
+                            <div class="cd1">
+                                <img src="assets/ixigo.webp" alt="">
+                            </div>
+                            <div class="cd1">
+                                <img src="assets/payu-12.14.38-PM-1-1200x600.webp" alt="">
+                            </div>
+                           
+                           
+                        </div>
+                        <div class="arrow2__2">
+
+                            <img src="assets/Arrow 2.webp" alt="">
                         </div>
                     </div>
-                </div>
+                    <div class="swiping">
+                        <div class="arrow1__1">
+                            <img src="assets/Arrow 3.webp" alt="">
+                        </div>
+                        <div class="sliding_feature">
+                            <div class="cd1">
+                                <img src="assets/realtor.webp" alt="">
+                            </div>
+                            <div class="cd1">
+                                <img src="assets/novelio_technologies_logo.webp" alt="">
+                            </div>
+                            <div class="cd1">
+                                <img src="assets/MetLife.webp" alt="">
+                            </div>
+                           
+                           
+                        </div>
+                        <div class="arrow2__2">
+
+                            <img src="assets/Arrow 2.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiping">
+                        <div class="arrow1__1">
+                            <img src="assets/Arrow 3.webp" alt="">
+                        </div>
+                        <div class="sliding_feature">
+                            <div class="cd1">
+                                <img src="assets/Motilal_Oswal_Logo.webp" alt="">
+                            </div>
+                            <div class="cd1">
+                                <img src="assets/Musafir.com-Logo.webp" alt="">
+                            </div>
+                            <div class="cd1">
+                                <img src="assets/Aditya-Birla-Group-Logo-Vector-600x600-1.webp" alt="">
+                            </div>
+                           
+                           
+                        </div>
+                        <div class="arrow2__2">
+
+                            <img src="assets/Arrow 2.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="swiping">
+                        <div class="arrow1__1">
+                            <img src="assets/Arrow 3.webp" alt="">
+                        </div>
+                        <div class="sliding_feature">
+                            <div class="cd1">
+                                <img src="assets/image.webp" alt="">
+                            </div>
+                            <div class="cd1">
+                                <img src="assets/InShot_20240625_194553344.webp" alt="">
+                            </div>
+                            <div class="cd1">
+                                <img src="assets/bowled.webp" alt="">
+                            </div>
+                           
+                           
+                        </div>
+                        <div class="arrow2__2">
+
+                            <img src="assets/Arrow 2.webp" alt="">
+                        </div>
+                    </div>
+                    </div>
+                   
+                    </div>
+                  
+                    </div>
+                       
+                    </div>
+                
+                    
+                      
+                        
+                    
 
              
              <div class="whatsapp_contact">
@@ -784,7 +879,7 @@
                 </div>
                 <div class="contact_deatils">
                     <img src="assets/call.png.webp" alt="">
-                    <p>+918810518347</p>
+                    <p id="tel">+918810518347</p>
                     
                     <h3>(What's App/Call)</h3>
                     <div class="design02">
@@ -808,11 +903,11 @@
                     </div>
                     <div class="informations">
                         <h3>Informations</h3>
-                        <p>About Company</p>
-                        <p>Letest Work</p>
-                        <p>Team Member</p>
-                        <p>Latest Blog</p>
-                        <p>Contact Us</p>
+                        <a href="#about">About Company</a>
+                        <a href="#client">Our Clients</a>
+                        <a href="#team">Our Team</a>
+                        <a href="#blog">Latest Blog</a>
+                        <a href="contact.html">Contact Us</a>
                         
                     </div>
                     <div class="contact_us">
@@ -823,11 +918,7 @@
                         <a href="">vcsconsulting.in</a>
                         
                     </div>
-                    <div class="newsletter">
-                        <h3>Newsletter</h3>
-                        <input type="email" placeholder="Enter your email"><img src="assets/Icon.webp" alt="">
-                        <p>Sign up for our email updates to receive <br> VCS newsletter, stories and information on <br> opportunities to make a difference.</p>
-                    </div>
+                    
                 </div>
                 <div class="lines">
                     <hr>
@@ -857,15 +948,18 @@
 
         
     
-    </div>
+              
     
     
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="animations.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
+    
     
 </body>
 

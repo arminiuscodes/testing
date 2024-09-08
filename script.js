@@ -247,6 +247,10 @@ document.querySelector('.first').addEventListener('click',function(){
     const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
     window.location.href=whatsApp;
 });
+document.querySelector('#tel').addEventListener('click',function(){
+    const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
+    window.location.href=whatsApp;
+});
 
   function toggleMenu() {
     const sideBar = document.querySelector('#sidebar');
@@ -270,7 +274,49 @@ document.querySelector('.first').addEventListener('click',function(){
 //     // stagger:0.2
     
 // });
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelectorAll('.swiping');
+    const prevArrow = document.querySelectorAll('.arrow1__1');
+    const nextArrow = document.querySelectorAll('.arrow2__2');
+    let currentSlide = 0;
 
+    // Function to show the current slide and hide others
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.style.display = i === index ? 'flex' : 'none';
+        });
+    }
+
+    // Function to go to the next slide
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    // Function to go to the previous slide
+    function prevSlide() {
+        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    // Event listeners for arrows
+    nextArrow.forEach(arrow => {
+        arrow.addEventListener('click', function(e) {
+            e.stopPropagation();
+            nextSlide();
+        });
+    });
+
+    prevArrow.forEach(arrow => {
+        arrow.addEventListener('click', function(e) {
+            e.stopPropagation();
+            prevSlide();
+        });
+    });
+
+    // Initialize the first slide as visible
+    showSlide(currentSlide);
+});
 
 
 
