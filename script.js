@@ -243,9 +243,19 @@ document.querySelector('.contact_deatils img').addEventListener('click',function
     const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
     window.location.href=whatsApp;
 });
+
+
 document.querySelector('.first').addEventListener('click',function(){
     const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
     window.location.href=whatsApp;
+});
+document.querySelector('.third').addEventListener('click',function(){
+    const instaGram = `https://www.instagram.com/vcs_connect/?utm_source=qr&igsh=eTRzZXF3OTRxbHM5`;
+    window.location.href=instaGram;
+});
+document.querySelector('.fourth').addEventListener('click',function(){
+    const faceBook = `https://www.facebook.com/people/Vcsconnect/61561912666427/?mibextid=ZbWKwL`;
+    window.location.href=faceBook;
 });
 document.querySelector('#tel').addEventListener('click',function(){
     const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;

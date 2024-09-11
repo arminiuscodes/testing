@@ -159,12 +159,7 @@ body{
 .slide .active{
     display:block;
 }
-.image img{
-   width: 48vw;
-   height: 44.11vw;
-   margin-left: 12vw;
-   
-}
+
 
 .info,.info1,.info2{
     max-width: 60vw;
@@ -227,7 +222,7 @@ body{
     margin-top: -10vh;
 }
 .info h1{
-    font-size: 2.3vw;
+    /* font-size: 2.3vw;
     font-weight: 700;
     line-height: 3.80vw;
     font-family: "Inter",sans-serif;
@@ -236,31 +231,44 @@ body{
     text-align: start;
     margin-top: 20vh;
     z-index: 999;
-    text-transform:uppercase;
+    text-transform:uppercase; */
+    font-size: 2.3vw;
+    font-weight: 700;
+    line-height: 3.5vw;
+    font-family: "Inter",sans-serif;
+    text-align: start;
+    margin-top:12vh;
+    text-transform: uppercase;
     
     
     
 
 }
+.info1 h1{
+    /* margin-top: 4vh; */
+}
+.info2 h1{
+    margin-top: 10vh;
+}
 
 .info1 h1,.info2 h1{
-    font-size: 2.3vw;
+    font-size: 2.6vw;
     font-weight: 700;
     line-height: 3.80vw;
     font-family: "Inter",sans-serif;
     text-align: start;
-    margin-top:10vh;
+    /* margin-top:10vh; */
     text-transform: uppercase;
     
     
 }
 .info p,.info1 p,.info2 p{
     
-    font-size: 1.04vw;
+    font-size: 1.3vw;
     font-weight: 400;
-    line-height: 1.67vw;
+    line-height: 1.7vw;
     letter-spacing: -0.03vw;
-    margin-bottom: 1.56vw;
+    /* margin-bottom: 1.56vw; */
     text-align: start;
     margin-top: 8vh;
     font-family: "Kumbh Sans", sans-serif;
@@ -287,16 +295,16 @@ body{
     cursor: pointer;
 }
 .image img{
-    width: 30vw;
-    height: 30vw; 
-    margin-left: 18vw;
+    width: 35vw;
+    height: 35vw; 
+    margin-left: 29vw;
     filter: drop-shadow(15px 15px 15px #212020);
 }
 
 .image01 img{
     width: 30vw;
     height: 30vw; 
-    margin-left: 18vw;
+    margin-left: 29vw;
     filter: drop-shadow(15px 15px 15px #212020);
     
     
@@ -305,7 +313,7 @@ body{
 .image02 img{
     width: 28vw;
     height: 28vw;
-    margin-left: 20vw;
+    margin-left: 29vw;
     box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
 }
 .info button img,.info1 buttton img{
@@ -315,7 +323,7 @@ body{
 }
 .dotted_arrow{
     position: absolute;
-    margin-left: 75vw;
+    margin-left: 80vw;
     margin-top: -47vh;
 }
 .dotted_arrow img{
@@ -332,7 +340,7 @@ body{
     justify-content:space-evenly;
     align-items: center;
     margin-top: 89.4vh;
-    
+         
 }
 .footer p{
        display: flex;
@@ -406,7 +414,7 @@ body{
     color: #646464;
     margin-top: 2vh;
 }
-.abt_info button{
+.abt_info a{
     width: 10.09vw;
     height: 2.96vw;
     border-radius: 0.26vw;
@@ -420,6 +428,7 @@ body{
     justify-content:space-evenly;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
 }
 /* -----services page ------- */
 .servicing{
@@ -447,7 +456,9 @@ body{
     margin-top: 10vh;
     /* display: none; */
 }
-
+#slide1 h1,#slide2 h1,#slide3 h1,#slide4 h1{
+    margin-top: 2vh;
+}
 .service{
     display: flex;
     flex-direction: column;
@@ -501,6 +512,10 @@ body{
 }
 #active{
     background-color:  #D1AD25;
+}
+#active .information h3{
+    color: black;
+    
 }
 .card2,.card3,.card4{
     display: flex;
@@ -757,7 +772,7 @@ body{
 .blog_info2{
     position: absolute;
     margin-left: 45vw;
-    margin-top: -15vh;
+    margin-top: -8vh;
 }
 .blog_info{
     position: relative;
@@ -775,6 +790,7 @@ body{
     border: 1px solid rgba(255,255,255,0.1);
     box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
     border-radius: 1.04vw;
+    
     
     /* margin-right: 15vw; */
 }
@@ -887,15 +903,21 @@ body{
     width: 2.81vw;
     height: 2.71vw;
 }
+.fdback_txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .fdback_txt h1 {
     font-family: "Inter Sans",sans-serif;
     font-weight: 600;
     font-size: 1.98vw;
     line-height: 2.29vw;
     color: #101210;
-    position: absolute;
-    margin-left: -43vw;
-    margin-top: -4vh;
+    /* position: absolute; */
+    /* margin-left: -43vw; */
+    /* margin-top: -4vh; */
+    padding-bottom: 10vh;
     
 }
 .fdback_img img{
@@ -909,16 +931,17 @@ body{
     width: 80vw;
     height: 27.75rem;
     /* background-color: black; */
-    margin-left: 8vw;
+    margin-left: 9vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    transform: translateY(-25vh);
+    transform: translateY(-29vh);
     
 }
 .cards01,.cards02,.cards03{
-    width: 21.88vw;
-    height: 18.75vw;
+    width: 23vw;
+    /* height: 18.75vw; */
+    height: 25vw;
     /* background-color: white; */
     border-radius: 1.4vw;
     background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
@@ -930,7 +953,8 @@ body{
     border-radius: 1.30vw;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+   
     
     gap: 2vh;
     padding-top: 5vh;
@@ -972,7 +996,7 @@ body{
 }
 .our_team{
     width: 100vw;
-    height: 90vh;
+    height: 60vh;
     background:url("assets/slidebg.webp");
     /* background-image: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%); */
     /* margin-left: 8vw; */
@@ -997,7 +1021,7 @@ body{
 .ourteam p{
     font-family: "Kumbh Sans",sans-serif;
     font-weight: 400;
-    font-size: 0.83vw;
+    font-size: 1.1vw;
     line-height: 1.35vw;
     color: #7b7b7b;
     text-align: center;
@@ -1276,6 +1300,18 @@ body{
     margin-top: 7vh;
     
 }
+.icons{
+   display: flex;
+   gap: 1vw;
+}
+
+.icons i{
+    font-size: 2vw;
+    cursor: pointer;
+
+     
+    color: #323232;
+}
 .rights p{
     font-family: "Kumbh Sans";
     font-weight: 400;
@@ -1403,6 +1439,12 @@ body{
 .second{
     color: #D1AD25;
 }
+.third{
+    color: #F702AD;
+}
+.fourth{
+    color: #395693;
+}
 #sidebar{
     
     position: fixed;
@@ -1475,7 +1517,54 @@ body{
 /* Container Styling */
 
 
-
+#imgage_1 img{
+    width: 7vw;
+    height: 3vw;
+}
+#imgage_2 img{
+ width: 6vw;
+ height: 3vw;
+}
+#imgage_3 img{
+    width: 7vw;
+    height: 4vw;
+}
+#imgage_4 img{
+    width: 7vw;
+    height: 4vw;
+}
+#imgage_5 img{
+    width: 7vw;
+    height: 4vw;
+}
+#imgage_6 img{
+    width: 9vw;
+    height: 8vw;
+}
+#imgage_7 img{
+    width: 9vw;
+    height: 8vw;
+}
+#imgage_8 img{
+    width: 9vw;
+    height: 8.1vw;
+}
+#imgage_9 img{
+    width: 7vw;
+    height: 6vw;
+}
+#imgage_10 img{
+    width: 9vw;
+    height: 4vw;
+}
+#imgage_11 img{
+    width: 7vw;
+    height: 7vw;
+}
+#imgage_12 img{
+    width: 8vw;
+    height: 3vw;
+}
 .swiping{
     display: flex;
     width: 100vw;
