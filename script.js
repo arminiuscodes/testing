@@ -230,7 +230,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 // email button javascript //
 document.querySelector('.mail_btn').addEventListener('click', function() {
-    const clientEmail = 'vcs@gmail.com'; // Replace with the client's email address
+    const clientEmail = 'info@vcsconsulting.in'; // Replace with the client's email address
     const subject = encodeURIComponent('Subject of the email'); // Optional: Replace with your desired subject
     const body = encodeURIComponent('Body of the email'); // Optional: Replace with your desired email body content
 
@@ -240,13 +240,13 @@ document.querySelector('.mail_btn').addEventListener('click', function() {
   });
 
 document.querySelector('.contact_deatils img').addEventListener('click',function(){
-    const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
+    const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
     window.location.href=whatsApp;
 });
 
 
 document.querySelector('.first').addEventListener('click',function(){
-    const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
+    const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
     window.location.href=whatsApp;
 });
 document.querySelector('.third').addEventListener('click',function(){
@@ -257,8 +257,13 @@ document.querySelector('.fourth').addEventListener('click',function(){
     const faceBook = `https://www.facebook.com/people/Vcsconnect/61561912666427/?mibextid=ZbWKwL`;
     window.location.href=faceBook;
 });
+document.querySelector('.fifth').addEventListener('click',function(){
+    const linkedIn = `https://www.linkedin.com/company/vcs-consulting-services/`;
+    window.location.href=linkedIn;
+});
+
 document.querySelector('#tel').addEventListener('click',function(){
-    const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Consulting%20Services%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
+    const whatsApp =`https://api.whatsapp.com/send?phone=+918810518347&text=%20Hi%20VCS%20Team,%20I%20am%20interested%20to%20know%20more%20about%20your%20services.`;
     window.location.href=whatsApp;
 });
 
