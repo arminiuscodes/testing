@@ -62,7 +62,7 @@ body{
     top: 0.03vw;
     box-shadow: 0 0.10vw 0.26vw -0.10vw rgba(0, 0, 0, 0.9);
     /* background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%); */
-    /* background-image:radial-gradient(circle at 3% 25%, rgba(255, 255, 255, 0) 0%, rgba(4, 12, 24, 1) 25%); */
+    background-image:radial-gradient(circle at 3% 25%, rgba(255, 255, 255, 0) 0%, rgba(4, 12, 24, 1) 25%);
     
     
     
@@ -550,7 +550,7 @@ body{
     text-align: center;
     font-family: "Kumbh Sans", sans-serif;
     color: #0d0c0c;
-    font-size: 0.9vw;
+    font-size: 0.8vw;
     font-weight: 400;
     letter-spacing: 0.03vw;
     width: auto;
@@ -561,7 +561,7 @@ body{
     font-family: "Inter Sans",sans-serif;
     font-size: 1.5vw;
     font-weight: 500;
-    line-height: 1.51vw;
+    line-height: 1.5vw;
 }
 
 .card1 img{
@@ -580,10 +580,10 @@ body{
     transform: translateY(8vh);
 
 }
-.info_img img{
+/* .info_img img{
     margin-right: 45vw;
     box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
-}
+} */
 .info_contents{
     position:absolute;
     display: flex;
@@ -655,9 +655,35 @@ body{
 .details2 img{
     margin-right: 1vw;
 }
+.info_img{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 45vw;
+    
+
+    
+}
+#slide1 .info_contents {
+    padding-top: 3vw;
+}
 .info_img img{
-    width: 26.04vw;
-    height: 20.83vw;
+    width: 10vw;
+    height: 12vw;
+    cursor: pointer;
+}
+.info1_img img{
+    width: 22vw;
+    height: 22vw;
+    margin-left: -35vw;
+    background: rgb(158, 156, 156);
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: -30px 30px 30px rgba(0, 0, 0, 0.8);
+}
+.info_img img:hover{
+    transform: scale(1.5);
+    transition: all 0.4s;
 }
 .ending{
     /* position: sticky; */
