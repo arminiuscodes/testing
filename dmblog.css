@@ -162,8 +162,13 @@ footer h4 {
     display: none;
    
 }
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .bg img{
-    width: 65vw;
+    width: 30vw;
     height: 20vw;
 }
 
