@@ -505,8 +505,8 @@ a.stickywhatsapp{
     /* text-align: center; */
     /* position: absolute;
     margin-top: 0.1vw; */
-    transform: translateY(-4rem);
-    -webkit-transform: translateY(-4rem);
+    transform: translateY(-4vh);
+    -webkit-transform: translateY(-4vh);
     margin-left: -0.1vw;
     padding-left: 6vw;
     
@@ -719,7 +719,7 @@ a.stickywhatsapp{
 }
 .sliding_feature{
   flex-direction: column;
-  
+  -webkit-flex-direction:column;
 }
 .arrow1__1{
   display: none;
