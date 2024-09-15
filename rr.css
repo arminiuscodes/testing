@@ -1,0 +1,294 @@
+
+/* Global fixes for iOS Safari */
+html {
+    -webkit-text-size-adjust: 100%; /* Prevents auto-resizing of text */
+    -webkit-tap-highlight-color: transparent; /* Removes tap highlight */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on Safari */
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Fix for iOS Safari viewport issues */
+@viewport {
+    width: device-width;
+    initial-scale: 1;
+}
+
+/* Default styles for mobile first */
+@media (max-width: 768px) {
+    #container {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    a.stickywhatsapp {
+        display: none;
+    }
+
+    .nav_content {
+        display: none;
+    }
+
+    .nav_bar {
+        width: 100vw;
+        height: 10vh;
+        justify-content: space-between;
+    }
+
+    .logo img {
+        width: 3rem;
+        height: 2.7rem;
+    }
+
+    .hamburger-menu {
+        display: flex;
+        z-index: 999;
+        padding-right: 2rem;
+    }
+
+    .mail_btn button {
+        width: 10rem;
+        height: 3rem;
+        font-size: 0.8rem;
+    }
+
+    .mail_btn button i {
+        font-size: 1rem;
+    }
+
+    #sidebar {
+        width: 50vw;
+        margin-right: 42vh;
+    }
+
+    #sidebar .navcontent {
+        padding-left: 3vw;
+    }
+
+    #sidebar .navcontent a {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        font-weight: 600;
+    }
+
+    #sidebar .navcontent i {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+        font-weight: 600;
+    }
+
+    .arrow1, .arrow1_1 {
+        display: none;
+    }
+
+    .arrow2 {
+        -webkit-transform: translateY(30vh);
+        transform: translateY(30vh);
+        margin-left: 37vh;
+        width: 13vw;
+        height: 13vw;
+        bottom: 0;
+    }
+
+    .arrow2 img {
+        width: 5vw;
+        height: 3vw;
+    }
+
+    .slider {
+        height: 100vh;
+    }
+
+    .slide {
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Fix flexbox for Safari */
+    .info, .info1, .info2 {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    .info h1, .info1 h1, .info2 h1 {
+        font-size: 6vw;
+        margin-top: 10vh;
+        line-height: 9vw;
+        transform: translateY(17vh);
+    }
+
+    .info img {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .info a {
+        width: 40vw;
+        height: 5vh;
+        font-size: 4vw;
+        transform: translateY(12vh);
+    }
+
+    .abt_img img {
+        width: 70vw;
+        height: auto;
+        margin-top: 14vh;
+    }
+
+    .footer {
+        max-width: 100vw;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-around;
+        height: 8vh;
+    }
+
+    .footer img {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .scroll-content {
+        max-width: 30vw;
+        padding-right: 130vh;
+        background-color: pink;
+        display: none;
+    }
+
+    /* Sticky button compatibility fix */
+    .sticky_buttons {
+        display: none;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    .aboutus {
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 86vh;
+        padding-top: 3.5vh;
+    }
+
+    .abt_info {
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 20vh;
+        margin-left: 2vh;
+    }
+
+    .abt_info h1 {
+        font-size: 6vw;
+        line-height: 7vw;
+    }
+
+    .abt_info a {
+        width: 30vw;
+        height: 5vh;
+        font-size: 3vw;
+        margin-left: 13vh;
+        transform: translateY(-3vh);
+    }
+
+    .abt_info button img {
+        width: 4vw;
+        height: 4vw;
+    }
+
+    /* Images */
+    .image img, .image01 img, .image02 img {
+        width: 90vw;
+        height: auto;
+        margin-left: 0;
+        margin-top: 2vh;
+    }
+
+    .our_team {
+        height: 60vh;
+    }
+
+    .minicards {
+        width: 55vw;
+        height: 40vw;
+        flex-wrap: wrap;
+        transform: translateX(14vw);
+    }
+
+    .img img {
+        width: 10vw;
+        height: 10vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .wk-ipadp-12 {
+        width: 100%;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+/* iPhone X, 11 specific optimizations */
+@media screen and (max-device-width: 812px) {
+    .footer {
+        display: none;
+    }
+
+    .slider {
+        height: 100vh;
+    }
+
+    .slide {
+        height: auto;
+    }
+
+    .aboutus {
+        padding-top: 3vh;
+    }
+
+    .image img {
+        width: 90vw;
+        height: auto;
+        margin-top: -6vh;
+    }
+}
+
+@media (min-width: 1025px) {
+    .footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .wk-mobile-12 {
+        width: 100%;
+    }
+
+    .footer img {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+}

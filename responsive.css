@@ -549,8 +549,8 @@ a.stickywhatsapp{
   height: 60vw;
 }
  .informations h2{
-    transform: translateY(11rem);
-    -webkit-transform: translateY(20rem);
+    transform: translateY(22vh);
+    -webkit-transform: translateY(22vh);
     margin-right: 9em;
     font-size: 5vw;
     line-height: 6vw;
@@ -561,8 +561,8 @@ a.stickywhatsapp{
     
     font-size: 3.5vw;
     line-height: 6vw;
-    transform: translateY(11rem);
-    -webkit-transform: translateY(11rem);
+    transform: translateY(21vh);
+    -webkit-transform: translateY(21vh);
     width: 90vw;
     margin-right: 8em;
  }
