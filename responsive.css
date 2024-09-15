@@ -6,7 +6,7 @@
   width: 100vw;
 }
 a.stickywhatsapp{
- display: inline;
+ display: none;
 }
 .nav_content{
   display: none;
@@ -316,7 +316,7 @@ a.stickywhatsapp{
    .abt_img img{
     width: 70vw;
     height: 70vw;
-    margin-top: 14vh
+    margin-top: 14vh;
    }
    .abt_info{
     display: flex;
@@ -516,6 +516,7 @@ a.stickywhatsapp{
  
  .digital_marketing_info{
     flex-direction:column;
+    -webkit-flex-direction:column;
     justify-content: center;
     align-items: center;
     /* margin-top: -6vh; */
@@ -638,7 +639,7 @@ a.stickywhatsapp{
 }
 .cards{
   flex-direction: column;
-  
+  -webkit-flex-direction:column;
   gap: 4vw;
   margin-top: -13vh;
   
