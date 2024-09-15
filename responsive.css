@@ -550,7 +550,7 @@ a.stickywhatsapp{
 }
  .informations h2{
     transform: translateY(11rem);
-    -webkit-transform: translateY(11rem);
+    -webkit-transform: translateY(20rem);
     margin-right: 9em;
     font-size: 5vw;
     line-height: 6vw;
