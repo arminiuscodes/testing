@@ -529,6 +529,9 @@ a.stickywhatsapp{
  .digital_marketing_info hr{
     display: none;
  }
+ .info_contents{
+  -webkit-transform:translateY(11vh);
+ }
  .info_img{
   width: 60vw;
   height: 60vw;
