@@ -2,7 +2,12 @@
 @media (max-width: 768px) {
 
     
-    
+#container{
+  width: 100vw;
+}
+a.stickywhatsapp{
+ display: inline;
+}
 .nav_content{
   display: none;
 }
@@ -56,6 +61,7 @@
         display: none; /* Hide arrow buttons on mobile */
     }
     .arrow2{
+      -webkit-transform: translateY(30vh);
         transform: translateY(30vh);
         margin-left:37vh;
         width: 13vw;
@@ -97,6 +103,7 @@
 
     .slide {
         flex-direction: column-reverse;
+        -webkit-flex-direction: column-reverse;
         height: auto;
         align-items: center;
         justify-content: center;
@@ -107,6 +114,7 @@
     .info,.info1,.info2{
         display: flex;
         flex-direction: column;
+        -webkit-flex-direction: column;
         justify-content: center;
         align-items: center;
         
@@ -129,6 +137,7 @@
         text-align: start;
         line-height: 9vw;
         transform: translateY(17vh);
+        -webkit-transform: translateY(17vh);
     }
     
     
@@ -143,6 +152,7 @@
         text-align: start;
         line-height: 9vw;
         transform: translateY(17vh);
+        -webkit-transform: translateY(17vh);
     }
     .info2 h1{
         /* font-size: 7vw;
@@ -154,6 +164,7 @@
         text-align: start;
         line-height: 9vw;
         transform: translateY(17vh);
+        -webkit-transform: translateY(17vh);
     }
     /* .info2{
         margin-top: -10vh;
@@ -164,6 +175,7 @@
         line-height: 7vw;
         text-align: start;
         transform: translateY(6rem);
+        -webkit-transform: translateY(6rem);
         
     }
     .info1 p{
@@ -171,12 +183,14 @@
       line-height: 7vw;
       text-align: start;
       transform: translateY(7rem);
+      -webkit-transform: translateY(7rem);
     }
     .info2 p{
       font-size: 4vw;
       line-height: 7vw;
       text-align: start;
       transform: translateY(6rem);
+      -webkit-transform: translateY(6rem);
     }
     
     
@@ -201,6 +215,7 @@
         
         margin-left: -1vw; 
         transform: translateY(18vh);
+        -webkit-transform: translateY(18vh);
 
     }
     .info a{
@@ -210,6 +225,7 @@
         font-size: 4vw;
         margin-left:-1vw;
         transform: translateY(12vh);
+        -webkit-transform: translateY(12vh);
         
     }
     .info2 a{
@@ -219,6 +235,7 @@
         margin-left:-1vw;
         /* margin-top: -0.1vw; */
         transform: translateY(10vh);
+        -webkit-transform: translateY(10vh);
     }
     .info{
         margin-top: 33vh;
@@ -276,6 +293,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    -webkit-flex-direction:column;
     align-items: center;
     justify-content: center;
     height: 86vh;
@@ -289,6 +307,7 @@
     font-size: 3vw;
     margin-left: 13vh;
     transform: translateY(-3vh);
+    -webkit-transform: translateY(-3vh);
    }
    .abt_info button img{
     width: 4vw;
@@ -302,6 +321,7 @@
    .abt_info{
     display: flex;
     flex-direction: column;
+    -webkit-flex-direction:column;
     justify-content: center;
     padding-bottom: 20vh;
     margin-left: 2vh;
@@ -336,6 +356,7 @@
  }
  .blog_heading{
     transform: translateY(-35vh);
+    -webkit-transform: translateY(-35vh);
     margin-right: -30vh;
  }
  .blog_content img{
@@ -348,6 +369,7 @@
     width: 7vw;
     height: 7vw;
     transform: translateY(-17vh);
+    -webkit-transform: translateY(-17vh);
  }
  .blog_heading h1{
     font-size: 5vw;
@@ -364,6 +386,7 @@
   font-size: 4vw;
   line-height: 5vw;
   transform: translateY(-1.6rem);
+  -webkit-transform: translateY(-1.6rem);
   
 }
 .dm_content p,.hr_content p,.finance p,.it_content p{
@@ -371,6 +394,7 @@
   line-height: 3vw;
   text-align: center;
   transform: translateY(-1rem);
+  -webkit-transform: translateY(-1rem);
   
 }
 .dm_content a,.hr_content a,.it_content a,.finance a{
@@ -380,17 +404,20 @@
 }
  .dm_content{
     transform: translateY(-38vh);
-    margin-right: -3vw;
+    -webkit-transform: translateY(-38vh);
+    margin-right: -15vw;
     
     
  }
  .finance{
     transform: translateY(-38vh);
-    margin-right: -3vw;
+    -webkit-transform: translateY(-38vh);
+    margin-right: -15vw;
  }
  .hr_content,.it_content{
     transform: translateY(60vh);
-    /* margin-left: -50vh; */
+    -webkit-transform: translateY(60vh);
+    margin-right: 40vh;
  }
  .dm_content,.finance,.hr_content,.it_content{
     width: 90vw;
@@ -479,6 +506,7 @@
     /* position: absolute;
     margin-top: 0.1vw; */
     transform: translateY(-4rem);
+    -webkit-transform: translateY(-4rem);
     margin-left: -0.1vw;
     padding-left: 6vw;
     
@@ -521,6 +549,7 @@
 }
  .informations h2{
     transform: translateY(11rem);
+    -webkit-transform: translateY(11rem);
     margin-right: 9em;
     font-size: 5vw;
     line-height: 6vw;
@@ -532,6 +561,7 @@
     font-size: 3.5vw;
     line-height: 6vw;
     transform: translateY(11rem);
+    -webkit-transform: translateY(11rem);
     width: 90vw;
     margin-right: 8em;
  }
@@ -540,6 +570,7 @@
  }
  .details2{
     transform: translateY(10rem);
+    -webkit-transform: translateY(10rem);
     margin-right: 13rem;
     
 
@@ -547,6 +578,7 @@
 
  .ending{
     transform: translateY(-28vh);
+    -webkit-transform: translateY(-28vh);
     /* margin-top: -10vh; */
     display: flex;
     width: 90%;
@@ -569,6 +601,7 @@
     line-height: 3vw;
     width: 10vh;
     transform: translateY(-1em);
+    -webkit-transform: translateY(-1rem);
     text-align: center;
     
  }
@@ -596,10 +629,12 @@
   font-size: 6vw;
   line-height: 6vw;
   transform: translateY(-9vh);
+  -webkit-transform: translateY(-9vh);
   
 }
 .rating{
   transform: translateY(-2vw);
+  -webkit-transform: translateY(-2vw);
 }
 .cards{
   flex-direction: column;
@@ -616,6 +651,7 @@
   font-size: 2.5vw;
   line-height: 4vw;
   transform: translateY(-5vw);
+  -webkit-transform: translateY(-5vw);
 }
 .cards01,.cards02,.cards03{
   width: 60vw;
@@ -627,9 +663,7 @@
 .our_team{
   height: 60vh;
 }
-.feedback_section{
-  height: 100vh;
-}
+
 .ourteam h3{
   font-size: 6vw;
 }
@@ -644,6 +678,7 @@
   gap: 3vw;
   flex-wrap: wrap;
   transform: translateX(14vw);
+  -webkit-transform: translateX(14vw);
 }
 .min_card img{
   width: 15vw;
@@ -692,6 +727,7 @@
   width: 13vw;
   height: 13vw;
   transform: translateX(14vh);
+  -webkit-transform: translateX(14vh);
   margin-bottom: 4vw;
 }
 .arrow2__2 img{
@@ -704,6 +740,7 @@
   height: 60vh;
   width: 100vw;
   transform: translateY(-6vh) ;
+  -webkit-transform: translateY(-6vh);
   
 }
 .cd1{
@@ -726,6 +763,7 @@
 }
 .content01{
   transform: translateX(25vw);
+  -webkit-transform: translateX(25vw);
 }
 .contact_deatils{
   margin-left: 8vw;
@@ -758,6 +796,7 @@
 }
 .c1{
   transform: translateY(-5vh);
+  -webkit-transform: translateY(-5vh);
 }
 .c1 img{
   width: 12vw;
@@ -770,6 +809,7 @@
 }
 #info{
   transform: translateY(-7vh);
+  -webkit-transform: translateY(-7vh);
 }
 .informations h3{
   font-size: 4vw;
@@ -780,6 +820,7 @@
 }
 .contact_us{
   transform: translateY(12vh);
+  -webkit-transform: translateY(12vh);
   margin-left: -80vw;
 }
 .contact_us h3{
@@ -791,6 +832,7 @@
 }
 .contact_footer{
   transform: translateY(45vh);
+  -webkit-transform: translateY(45vh);
  
   position: absolute;
   
@@ -804,18 +846,14 @@
   font-size: 2vw;
   line-height: 2vw;
 }
+
 .sticky_buttons{
-  transform: translateX(-38vh);
-  height: auto;
+  display: none;
 }
-.sticky_buttons ul i{
-  width: 20vw;
-  height: 10vw;
-  border-radius: 13vw;
-  line-height: 7vw;
-  font-size: 6vw;
-  padding-right: 2vw;
-}
+/* .sticky_buttons .third,.sticky_buttons .fourth,.sticky_buttons .fifth{
+  display: none;
+} */
+
 #imgage_1 img{
   width: 15vw;
   height: 5vw;
@@ -858,6 +896,7 @@
     
     .ending{
        transform: translateY(-8vh);
+       -webkit-transform: translateY(-8vh);
     }
     .ending li{
         font-size: 2vw;
@@ -865,22 +904,26 @@
 }
 @media (max-width:1200px) {
   .ending{
-    transform: translateY(-5vh)
+    transform: translateY(-5vh);
+    -webkit-transform: translateY(-5vh);
   }
 }
 @media (max-width:1070px) {
   .ending{
-    transform: translateY(-7vh)
+    transform: translateY(-7vh);
+    -webkit-transform: translateY(-7vh);
   }
 }
 @media (max-width:1390px){
   .ending{
-    transform: translateY(-7vh)
+    transform: translateY(-7vh);
+    -webkit-transform: translateY(-7vh);
   }
 }
 @media (max-width:980px) {
   .ending{
-    transform: translateY(-9vh)
+    transform: translateY(-9vh);
+    -webkit-transform: translateY(-9vh);
   }
   .info_contents{
     margin-top: -5vh
@@ -888,59 +931,11 @@
 }
 @media(max-width:788px) {
 .ending{
-  transform: translateY(-10vh)
+  transform: translateY(-10vh);
+  -webkit-transform: translateY(-10vh);
 }
 }
-@media (max-width:480px) {
-  .aboutus{
-    /* transform: translateY(9vh); */
-    height: 90vh;
-  }
-  
-  #sidebar{
-    margin-right: 45vh;
-  }
  
-  .info h1 ,.info1 h1 ,.info2 h1{
-   margin-bottom: -3vw;
-  }
-  .image02 img{
-    box-shadow: none;
-  }
-  .dm_content,.finance{
-    margin-right:-12vw;
-  }
-  .dm_content a,.hr_content a,.finance a,.it_content a{
-    transform: translateY(-3vw);
-  }
-  .hr_content,.it_content{
-    margin-right: 41vh;
-  }
-  .feedback_section{
-    height: 110vh;
-  }
- 
-  .our_clients{
-    height: 65vh;
-  }
-  .swiper{
-    height: 80vh;
-    transform: translateY(1vh)
-  }
-  .swiping{
-    height: 70vh;
-  }
-  .whatsapp_contact{
-    transform: translateY(-4vh)
-  }
-  .contact{
-    transform: translateY(-4vh)
-  }
-  .fdback_txt h1{
-    font-size: 4vw;
-    line-height: 4vw;
-  }
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
 

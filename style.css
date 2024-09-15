@@ -1431,6 +1431,19 @@ body{
     display: none;
    
 }
+a.stickywhatsapp {
+    position: fixed;
+    right: -80px;
+    bottom: 50%;
+    padding: 5px 10px;
+    background: #fff;
+    border-radius: 10px 0px 0px 10px;
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0 0 12px 0 #0003;
+}
 .sticky_buttons{
 
     position: fixed; /* Make the buttons fixed so they scroll with the page */
@@ -1441,6 +1454,7 @@ body{
     flex-direction: column; /* Stack the buttons vertically */
     gap: 10px; /* Space between buttons */
     z-index: 1000; /* Ensure they appear on top of other content */
+   
 }
 .sticky_buttons ul{
     display: flex;
