@@ -567,7 +567,7 @@ a.stickywhatsapp{
     margin-right: 8em;
  }
  .info_contents{
-  padding-top: 10vw;
+  /* padding-top: 10vw; */
  }
  .details2{
     transform: translateY(10rem);
