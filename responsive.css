@@ -1,9 +1,11 @@
 
-@media (max-width: 768px) {
+
+      
+    
 
     
-#container{
-  width: 100vw;
+@media(max-width:600px) {
+  
 }
 a.stickywhatsapp{
  display: none;
@@ -296,7 +298,7 @@ a.stickywhatsapp{
     -webkit-flex-direction:column;
     align-items: center;
     justify-content: center;
-    height: 86vh;
+    height: 100vh;
     margin-top: -0.1em;
     padding-top: 3.5vh;
     
@@ -529,9 +531,9 @@ a.stickywhatsapp{
  .digital_marketing_info hr{
     display: none;
  }
- .info_contents{
+ /* .info_contents{
   -webkit-transform:translateY(11vh);
- }
+ } */
  .info_img{
   width: 60vw;
   height: 60vw;
@@ -569,9 +571,7 @@ a.stickywhatsapp{
     width: 90vw;
     margin-right: 8em;
  }
- .info_contents{
-  /* padding-top: 10vw; */
- }
+
  .details2{
     transform: translateY(10rem);
     -webkit-transform: translateY(10rem);
@@ -939,7 +939,26 @@ a.stickywhatsapp{
   -webkit-transform: translateY(-10vh);
 }
 }
- 
+ @media(max-width:390px) {
+    .info_contents{
+      -webkit-transform: translateY(7rem);
+    }
+    .cards{
+      -webkit-transform: translateY(0.4rem);
+    }
+    .feedback_section{
+      height: 60rem;
+    }
+    .fdback_txt h1{
+      margin-top: 1rem;
+    }
+    .our_clients{
+      height: 30rem;
+    }
+    .swiping{
+      margin-top: 1rem;
+    }
+ }
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
 
