@@ -851,7 +851,9 @@ a.stickywhatsapp{
   font-size: 2vw;
   line-height: 2vw;
 }
-
+.icons i{
+  font-size: 1.2rem;
+}
 .sticky_buttons{
   display: none;
 }
