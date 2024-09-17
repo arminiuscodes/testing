@@ -259,6 +259,7 @@ a.stickywhatsapp{
         margin-left: 0;
         margin-top: 2vh;
         margin-top: -6vh;
+        box-shadow:none;
     }
     /* .image01 img{
         width: 60vw;
