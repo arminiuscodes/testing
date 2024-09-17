@@ -20,11 +20,9 @@
   }
 .html{
     scroll-behavior: smooth;
-    overflow:hidden ;
+      overflow-x: hidden;
 }
-body{
-    overflow-x: hidden;
-}
+
 /* [data-scroll-container] {
     height: auto !important;
 } */
