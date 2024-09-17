@@ -766,11 +766,11 @@ a.stickywhatsapp{
   display: none;
 }
 .content01{
-  transform: translateX(25vw);
-  -webkit-transform: translateX(25vw);
+  transform: translateX(10vw);
+  -webkit-transform: translateX(10vw);
 }
 .contact_deatils{
-  margin-left: 8vw;
+  margin-left: -18vw;
 }
 .content01 h3{
   font-size: 5vw;
