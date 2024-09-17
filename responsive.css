@@ -187,6 +187,8 @@ a.stickywhatsapp{
       text-align: start;
       transform: translateY(7rem);
       -webkit-transform: translateY(7rem);
+      width: 25rem;
+      margin-left: 3rem;
     }
     .info2 p{
       font-size: 4vw;
@@ -194,6 +196,8 @@ a.stickywhatsapp{
       text-align: start;
       transform: translateY(6rem);
       -webkit-transform: translateY(6rem);
+      width: 25rem;
+      margin-left: 3rem;
     }
     
     
