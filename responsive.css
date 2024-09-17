@@ -553,6 +553,7 @@ a.stickywhatsapp{
 .info1_img img{
   width: 60vw;
   height: 60vw;
+  box-shadow:none;
 }
  .informations h2{
     transform: translateY(22vh);
