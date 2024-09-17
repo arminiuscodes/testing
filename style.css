@@ -18,7 +18,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-.html{
+.html,body{
     scroll-behavior: smooth;
       overflow-x: hidden;
 }
